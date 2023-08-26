@@ -12,7 +12,7 @@ public class SheetsInterface: ObservableObject {
     public init() {}
 
     /// The oauth access token. Wrapper for ``APISecretManager.accessToken``.
-    static var accessToken: String {
+    public static var accessToken: String {
         get { APISecretManager.accessToken }
         set { APISecretManager.accessToken = newValue }
     }
