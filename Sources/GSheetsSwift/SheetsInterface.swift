@@ -136,6 +136,20 @@ public class SheetsInterface: ObservableObject {
         return row.at(col-(grid.startColumn ?? 0))
     }
 
+    /// Reads all contents from a sheet
+    public func readAll() -> [[CellContent]] {
+        guard let targetSheet, let grid = targetSheet.data.first else { return [] }
+
+        let rowOffset = grid.startRow ?? 0
+        let colOffset = grid.startColumn ?? 0
+
+        return grid.rowData.enumerated().map { (row, rowData) in
+            rowData.values.enumerated().map { (col, cellData) in
+                CellContent(row: row+rowOffset, col: col+colOffset, content: cellData.formattedValue)
+            }
+        }
+    }
+
     /// Writes the contents at the specified cell
     public func writeCell(
         contents: String,
