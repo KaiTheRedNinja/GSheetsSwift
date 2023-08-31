@@ -27,8 +27,8 @@ public struct GridData: Codable {
 
     public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: Keys.self)
-        startRow = try container.decode(Int.self, forKey: .startRow)
-        startColumn = try container.decode(Int.self, forKey: .startColumn)
+        startRow = try? container.decode(Int.self, forKey: .startRow)
+        startColumn = try? container.decode(Int.self, forKey: .startColumn)
         rowData = (try? container.decode([RowData].self, forKey: .rowData)) ?? []
     }
 }
