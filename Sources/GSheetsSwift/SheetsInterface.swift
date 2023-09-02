@@ -43,9 +43,17 @@ public class SheetsInterface: ObservableObject {
         case noSheetToRefresh
     }
 
+    /// Reloads the spreadsheet, similar to re-running `loadSpreadsheet`
     public func reloadSpreadsheet() async throws {
         guard let id = spreadsheet?.spreadsheetId else { throw SheetsInterfaceError.noSheetToRefresh }
         try await loadSpreadsheet(id: id)
+    }
+
+    /// Deletes all the sheet data in this `SheetsInterface` instance
+    public func resetSpreadsheet() {
+        spreadsheet = nil
+        targetSheet = nil
+        objectWillChange.send()
     }
 
     /// Gets the names for sheets
