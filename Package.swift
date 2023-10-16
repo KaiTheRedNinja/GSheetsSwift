@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "GSheetsSwift",
     platforms: [
-        .iOS(.v16),
+        .iOS(.v15),
         .macOS(.v13)
     ],
     products: [
