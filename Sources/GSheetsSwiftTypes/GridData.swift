@@ -7,7 +7,12 @@
 
 import Foundation
 
-public struct GridData: Codable {
+public struct GridData: Codable, Equatable {
+    public static func == (lhs: GridData, rhs: GridData) -> Bool {
+        return lhs.rowData == rhs.rowData && lhs.startColumn == rhs.startColumn && lhs.startRow == rhs.startRow
+    }
+    
+    
     public var startRow: Int?
     public var startColumn: Int?
     public var rowData: [RowData]

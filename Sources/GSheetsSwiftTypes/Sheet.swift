@@ -7,7 +7,11 @@
 
 import Foundation
 
-public struct Sheet: Codable {
+public struct Sheet: Codable, Equatable {
+    public static func == (lhs: Sheet, rhs: Sheet) -> Bool {
+        return lhs.data == rhs.data && lhs.properties == rhs.properties
+    }
+    
     public var properties: SheetProperties
     public var data: [GridData]
 

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct SheetProperties: Codable {
+public struct SheetProperties: Codable, Equatable {
     public var sheetId: Int
     public var title: String
     public var index: Int

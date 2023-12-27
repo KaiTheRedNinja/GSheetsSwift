@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum ErrorType: String, Codable {
+public enum ErrorType: String, Codable, Equatable {
     case error_type_unspecified = "ERROR_TYPE_UNSPECIFIED"
     case error = "ERROR"
     case null_value = "NULL_VALUE"

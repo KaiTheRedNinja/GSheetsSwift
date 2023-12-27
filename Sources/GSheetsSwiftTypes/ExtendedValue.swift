@@ -7,7 +7,12 @@
 
 import Foundation
 
-public struct ExtendedValue: Codable {
+public struct ExtendedValue: Codable, Equatable {
+    
+    public static func == (lhs: ExtendedValue, rhs: ExtendedValue) -> Bool {
+        return lhs.numberValue == rhs.numberValue && lhs.stringValue == rhs.stringValue && lhs.boolValue == rhs.boolValue && lhs.formulaValue == rhs.formulaValue && lhs.errorValue == rhs.errorValue
+    }
+    
     public var numberValue: Double?
     public var stringValue: String?
     public var boolValue: Bool?
