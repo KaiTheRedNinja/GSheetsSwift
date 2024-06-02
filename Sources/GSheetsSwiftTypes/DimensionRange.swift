@@ -12,4 +12,11 @@ public struct DimensionRange: Codable {
     public var dimension: DimensionEnum
     public var startIndex: Int
     public var endIndex: Int
+
+    public init(sheetId: Int, dimension: DimensionEnum, startIndex: Int, endIndex: Int) {
+        self.sheetId = sheetId
+        self.dimension = dimension
+        self.startIndex = startIndex
+        self.endIndex = endIndex
+    }
 }

@@ -174,7 +174,7 @@ public class SheetsInterface: ObservableObject {
         col: Int,
         updateInternalRepresentation: Bool = false
     ) {
-        guard let spreadsheet, let targetSheet else { return }
+        guard let targetSheet else { return }
 
         let sheetId = targetSheet.properties.sheetId
 
@@ -184,27 +184,10 @@ public class SheetsInterface: ObservableObject {
             start: .init(sheetId: sheetId, rowIndex: row, columnIndex: col)
         )
 
-        GSheetsSwiftAPI.ATSpreadsheets.update(
-            params: .init(spreadsheetId: spreadsheet.spreadsheetId),
-            query: .init(),
-            data: .init(
-                requests: [
-                    .init(updateCells: updateCellsRequest)
-                ],
-                includeSpreadsheetInResponse: updateInternalRepresentation,
-                responseRanges: [],
-                responseIncludeGridData: false)
-        ) { result in
-            switch result {
-            case .success(let response):
-                print("Success!")
-                if let updatedSpreadsheet = response.updatedSpreadsheet {
-                    self.spreadsheet = updatedSpreadsheet
-                }
-            case .failure(_):
-                print("Failure :(")
-            }
-        }
+        update(
+            requests: [.init(updateCells: updateCellsRequest)],
+            updateInternalRepresentation: updateInternalRepresentation
+        )
     }
 
     /// Appends a row below the last row with data, creating it if nescessary
@@ -212,7 +195,7 @@ public class SheetsInterface: ObservableObject {
         _ rows: [RowData],
         updateInternalRepresentation: Bool = false
     ) {
-        guard let spreadsheet, let targetSheet else { return }
+        guard let targetSheet else { return }
 
         let sheetId = targetSheet.properties.sheetId
 
@@ -222,13 +205,43 @@ public class SheetsInterface: ObservableObject {
             fields: "*"
         )
 
+        update(
+            requests: [.init(appendCells: appendCellsRequest)],
+            updateInternalRepresentation: updateInternalRepresentation
+        )
+    }
+
+    public func insertRange(
+        _ range: Range<Int>,
+        direction: DimensionEnum,
+        updateInternalRepresentation: Bool = false
+    ) {
+        guard let targetSheet else { return }
+
+        let sheetId = targetSheet.properties.sheetId
+
+        let insertDimensionsRequest = InsertDimensionRequest(
+            range: .init(sheetId: sheetId, dimension: direction, startIndex: range.lowerBound, endIndex: range.upperBound),
+            inheritFromBefore: true
+        )
+
+        update(
+            requests: [.init(insertDimension: insertDimensionsRequest)],
+            updateInternalRepresentation: updateInternalRepresentation
+        )
+    }
+
+    public func update(
+        requests: [UpdateRequest],
+        updateInternalRepresentation: Bool = false
+    ) {
+        guard let spreadsheetId = spreadsheet?.spreadsheetId else { return }
+
         GSheetsSwiftAPI.ATSpreadsheets.update(
-            params: .init(spreadsheetId: spreadsheet.spreadsheetId),
+            params: .init(spreadsheetId: spreadsheetId),
             query: .init(),
             data: .init(
-                requests: [
-                    .init(appendCells: appendCellsRequest)
-                ],
+                requests: requests,
                 includeSpreadsheetInResponse: updateInternalRepresentation,
                 responseRanges: [],
                 responseIncludeGridData: false)
