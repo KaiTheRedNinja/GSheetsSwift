@@ -171,7 +171,8 @@ public class SheetsInterface: ObservableObject {
     public func writeCell(
         contents: String,
         row: Int,
-        col: Int
+        col: Int,
+        updateInternalRepresentation: Bool = false
     ) {
         guard let spreadsheet, let targetSheet else { return }
 
@@ -190,13 +191,16 @@ public class SheetsInterface: ObservableObject {
                 requests: [
                     .init(updateCells: updateCellsRequest)
                 ],
-                includeSpreadsheetInResponse: false,
+                includeSpreadsheetInResponse: updateInternalRepresentation,
                 responseRanges: [],
                 responseIncludeGridData: false)
         ) { result in
             switch result {
-            case .success(_):
+            case .success(let response):
                 print("Success!")
+                if let updatedSpreadsheet = response.updatedSpreadsheet {
+                    self.spreadsheet = updatedSpreadsheet
+                }
             case .failure(_):
                 print("Failure :(")
             }
@@ -205,7 +209,8 @@ public class SheetsInterface: ObservableObject {
 
     /// Appends a row below the last row with data, creating it if nescessary
     public func appendRow(
-        _ rows: [RowData]
+        _ rows: [RowData],
+        updateInternalRepresentation: Bool = false
     ) {
         guard let spreadsheet, let targetSheet else { return }
 
@@ -224,13 +229,16 @@ public class SheetsInterface: ObservableObject {
                 requests: [
                     .init(appendCells: appendCellsRequest)
                 ],
-                includeSpreadsheetInResponse: false,
+                includeSpreadsheetInResponse: updateInternalRepresentation,
                 responseRanges: [],
                 responseIncludeGridData: false)
         ) { result in
             switch result {
-            case .success(_):
+            case .success(let response):
                 print("Success!")
+                if let updatedSpreadsheet = response.updatedSpreadsheet {
+                    self.spreadsheet = updatedSpreadsheet
+                }
             case .failure(_):
                 print("Failure :(")
             }
@@ -238,8 +246,11 @@ public class SheetsInterface: ObservableObject {
     }
 }
 
+/// A protocol that defines interfaces for being informed of a ``SheetsInterface``'s changes
 public protocol SheetsInterfaceChangeDelegate: AnyObject {
+    /// Executed when the spreadsheet is set
     func spreadsheetDidChange(interface: SheetsInterface, spreadsheet: Spreadsheet?)
+    /// Executed when the target sheet is set
     func targetSheetDidChange(interface: SheetsInterface, targetSheet: Sheet?)
 }
 

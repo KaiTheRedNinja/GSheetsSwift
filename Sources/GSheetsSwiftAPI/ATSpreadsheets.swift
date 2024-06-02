@@ -79,5 +79,6 @@ extension GSheetsSwiftAPI.ATSpreadsheets: GSheetsSwiftGettable, GSheetsSwiftUpda
 
     public struct UpdatableResponseData: Codable {
         public var spreadsheetId: String
+        public var updatedSpreadsheet: Spreadsheet?
     }
 }
