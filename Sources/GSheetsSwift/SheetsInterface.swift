@@ -6,8 +6,17 @@ import GSheetsSwiftAPI
 import GSheetsSwiftTypes
 
 public class SheetsInterface: ObservableObject {
-    @Published private(set) public var spreadsheet: Spreadsheet?
-    @Published private(set) public var targetSheet: Sheet?
+    @Published private(set) public var spreadsheet: Spreadsheet? {
+        didSet {
+            changeDelegate?.spreadsheetDidChange(interface: self, spreadsheet: spreadsheet)
+        }
+    }
+    @Published private(set) public var targetSheet: Sheet? {
+        didSet {
+            changeDelegate?.targetSheetDidChange(interface: self, targetSheet: targetSheet)
+        }
+    }
+    public weak var changeDelegate: SheetsInterfaceChangeDelegate?
 
     public init() {}
 
@@ -227,6 +236,11 @@ public class SheetsInterface: ObservableObject {
             }
         }
     }
+}
+
+public protocol SheetsInterfaceChangeDelegate: AnyObject {
+    func spreadsheetDidChange(interface: SheetsInterface, spreadsheet: Spreadsheet?)
+    func targetSheetDidChange(interface: SheetsInterface, targetSheet: Sheet?)
 }
 
 public struct CellContent: Hashable {
