@@ -9,11 +9,16 @@ import Foundation
 import GSheetsSwiftTypes
 
 public struct UpdateRequest: Codable {
-    // theres far more types than this, but we don't need them
-    var updateCells: UpdateCellsRequest
+    // Note: Only ONE of these types is allowed at any given time
+    var updateCells: UpdateCellsRequest?
+    var appendCells: AppendCellsRequest?
 
     public init(updateCells: UpdateCellsRequest) {
         self.updateCells = updateCells
+    }
+
+    public init(appendCells: AppendCellsRequest) {
+        self.appendCells = appendCells
     }
 }
 
@@ -31,5 +36,21 @@ public struct UpdateCellsRequest: Codable {
         self.fields = fields
         self.start = start
         self.range = range
+    }
+}
+
+public struct AppendCellsRequest: Codable {
+    var sheetId: Int
+    var rows: [RowData]
+    var fields: String = "*"
+
+    public init(
+        sheetId: Int,
+        rows: [RowData],
+        fields: String
+    ) {
+        self.sheetId = sheetId
+        self.rows = rows
+        self.fields = fields
     }
 }

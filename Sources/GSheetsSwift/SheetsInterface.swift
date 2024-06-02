@@ -193,6 +193,40 @@ public class SheetsInterface: ObservableObject {
             }
         }
     }
+
+    /// Appends a row below the last row with data, creating it if nescessary
+    public func appendRow(
+        _ rows: [RowData]
+    ) {
+        guard let spreadsheet, let targetSheet else { return }
+
+        let sheetId = targetSheet.properties.sheetId
+
+        let appendCellsRequest = AppendCellsRequest(
+            sheetId: sheetId,
+            rows: rows,
+            fields: "*"
+        )
+
+        GSheetsSwiftAPI.ATSpreadsheets.update(
+            params: .init(spreadsheetId: spreadsheet.spreadsheetId),
+            query: .init(),
+            data: .init(
+                requests: [
+                    .init(appendCells: appendCellsRequest)
+                ],
+                includeSpreadsheetInResponse: false,
+                responseRanges: [],
+                responseIncludeGridData: false)
+        ) { result in
+            switch result {
+            case .success(_):
+                print("Success!")
+            case .failure(_):
+                print("Failure :(")
+            }
+        }
+    }
 }
 
 public struct CellContent: Hashable {
