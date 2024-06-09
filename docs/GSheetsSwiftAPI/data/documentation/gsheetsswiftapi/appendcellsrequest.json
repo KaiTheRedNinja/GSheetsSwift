@@ -1,0 +1,284 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/AppendCellsRequest"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15GSheetsSwiftAPI18AppendCellsRequestV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "AppendCellsRequest"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "GSheetsSwiftAPI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "AppendCellsRequest"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "AppendCellsRequest"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "AppendCellsRequest"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/GSheetsSwiftAPI\/Se",
+        "doc:\/\/GSheetsSwiftAPI\/SE"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/AppendCellsRequest\/init(from:)",
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/AppendCellsRequest\/init(sheetId:rows:fields:)"
+      ],
+      "title" : "Initializers"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/gsheetsswiftapi\/appendcellsrequest"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://GSheetsSwiftAPI/SE": {
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://GSheetsSwiftAPI/Se": {
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "GSheetsSwiftAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/AppendCellsRequest": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AppendCellsRequest"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/AppendCellsRequest",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AppendCellsRequest"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AppendCellsRequest",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/appendcellsrequest"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/AppendCellsRequest/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/AppendCellsRequest\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/appendcellsrequest\/init(from:)"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/AppendCellsRequest/init(sheetId:rows:fields:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "sheetId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rows"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17GSheetsSwiftTypes7RowDataV",
+      "text" : "RowData"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "fields"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/AppendCellsRequest\/init(sheetId:rows:fields:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(sheetId:rows:fields:)",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/appendcellsrequest\/init(sheetid:rows:fields:)"
+}
+}
+}

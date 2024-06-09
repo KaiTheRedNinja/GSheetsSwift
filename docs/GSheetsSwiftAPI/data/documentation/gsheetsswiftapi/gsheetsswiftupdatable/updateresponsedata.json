@@ -1,0 +1,189 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI",
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftUpdatable"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftUpdatable\/UpdateResponseData"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15GSheetsSwiftAPI0aB9UpdatableP18UpdateResponseDataQa",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "associatedtype"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "UpdateResponseData"
+      },
+      {
+        "kind" : "text",
+        "text" : " : "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Se",
+        "text" : "Decodable"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "GSheetsSwiftAPI"
+      }
+    ],
+    "required" : true,
+    "role" : "symbol",
+    "roleHeading" : "Associated Type",
+    "symbolKind" : "associatedtype",
+    "title" : "UpdateResponseData"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "associatedtype"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "UpdateResponseData"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Se",
+              "text" : "Decodable"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/gsheetsswiftapi\/gsheetsswiftupdatable\/updateresponsedata"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "GSheetsSwiftAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftUpdatable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GSheetsSwiftUpdatable"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftUpdatable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GSheetsSwiftUpdatable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GSheetsSwiftUpdatable",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftupdatable"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftUpdatable/UpdateResponseData": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UpdateResponseData"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Se",
+      "text" : "Decodable"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftUpdatable\/UpdateResponseData",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "UpdateResponseData",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftupdatable\/updateresponsedata"
+}
+}
+}

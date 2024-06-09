@@ -1,0 +1,160 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes",
+        "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/DimensionEnum"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/DimensionEnum\/dimension_unspecified"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:17GSheetsSwiftTypes13DimensionEnumO21dimension_unspecifiedyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "dimension_unspecified"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "GSheetsSwiftTypes"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "DimensionEnum.dimension_unspecified"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "dimension_unspecified"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/gsheetsswifttypes\/dimensionenum\/dimension_unspecified"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "GSheetsSwiftTypes",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionEnum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DimensionEnum"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/DimensionEnum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DimensionEnum"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DimensionEnum",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/dimensionenum"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionEnum/dimension_unspecified": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dimension_unspecified"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/DimensionEnum\/dimension_unspecified",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "DimensionEnum.dimension_unspecified",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/dimensionenum\/dimension_unspecified"
+}
+}
+}

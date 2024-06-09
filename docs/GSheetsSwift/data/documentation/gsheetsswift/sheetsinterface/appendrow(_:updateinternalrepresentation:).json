@@ -1,0 +1,275 @@
+{
+  "abstract" : [
+    {
+      "text" : "Appends a row below the last row with data, creating it if nescessary",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift",
+        "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface\/appendRow(_:updateInternalRepresentation:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12GSheetsSwift15SheetsInterfaceC9appendRow_28updateInternalRepresentationySay0aB5Types0F4DataVG_SbtF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "appendRow"
+      },
+      {
+        "kind" : "text",
+        "text" : "(["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:17GSheetsSwiftTypes7RowDataV",
+        "text" : "RowData"
+      },
+      {
+        "kind" : "text",
+        "text" : "], "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "updateInternalRepresentation"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "GSheetsSwift"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "appendRow(_:updateInternalRepresentation:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "appendRow"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "rows"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:17GSheetsSwiftTypes7RowDataV",
+              "text" : "RowData"
+            },
+            {
+              "kind" : "text",
+              "text" : "], "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "updateInternalRepresentation"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = false)"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/gsheetsswift\/sheetsinterface\/appendrow(_:updateinternalrepresentation:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://GSheetsSwift/documentation/GSheetsSwift": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "GSheetsSwift",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswift"
+},
+"doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SheetsInterface"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SheetsInterface"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SheetsInterface",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswift\/sheetsinterface"
+},
+"doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/appendRow(_:updateInternalRepresentation:)": {
+  "abstract" : [
+    {
+      "text" : "Appends a row below the last row with data, creating it if nescessary",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appendRow"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17GSheetsSwiftTypes7RowDataV",
+      "text" : "RowData"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "updateInternalRepresentation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface\/appendRow(_:updateInternalRepresentation:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appendRow(_:updateInternalRepresentation:)",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswift\/sheetsinterface\/appendrow(_:updateinternalrepresentation:)"
+}
+}
+}

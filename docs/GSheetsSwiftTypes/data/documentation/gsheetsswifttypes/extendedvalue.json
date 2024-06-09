@@ -1,0 +1,612 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:17GSheetsSwiftTypes13ExtendedValueV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ExtendedValue"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "GSheetsSwiftTypes"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ExtendedValue"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "ExtendedValue"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ExtendedValue"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/GSheetsSwiftTypes\/Se",
+        "doc:\/\/GSheetsSwiftTypes\/SE",
+        "doc:\/\/GSheetsSwiftTypes\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/==(_:_:)"
+      ],
+      "title" : "Operators"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/init(from:)",
+        "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/init(numberValue:stringValue:boolValue:formulaValue:errorValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/boolValue",
+        "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/errorValue",
+        "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/formulaValue",
+        "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/numberValue",
+        "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/stringValue"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/gsheetsswifttypes\/extendedvalue"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://GSheetsSwiftTypes/SE": {
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://GSheetsSwiftTypes/SQ": {
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://GSheetsSwiftTypes/Se": {
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "GSheetsSwiftTypes",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ExtendedValue"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ExtendedValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ExtendedValue",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/extendedvalue"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/==(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "=="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17GSheetsSwiftTypes13ExtendedValueV",
+      "text" : "ExtendedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17GSheetsSwiftTypes13ExtendedValueV",
+      "text" : "ExtendedValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/==(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "==(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/==(_:_:)"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/equatable-implementations"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/boolValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "boolValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/boolValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "boolValue",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/boolvalue"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/errorValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "errorValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17GSheetsSwiftTypes10ErrorValueV",
+      "text" : "ErrorValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/errorValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "errorValue",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/errorvalue"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/formulaValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "formulaValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/formulaValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "formulaValue",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/formulavalue"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/init(from:)"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/init(numberValue:stringValue:boolValue:formulaValue:errorValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "numberValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "stringValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "boolValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "formulaValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "errorValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17GSheetsSwiftTypes10ErrorValueV",
+      "text" : "ErrorValue"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/init(numberValue:stringValue:boolValue:formulaValue:errorValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(numberValue:stringValue:boolValue:formulaValue:errorValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/init(numbervalue:stringvalue:boolvalue:formulavalue:errorvalue:)"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/numberValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "numberValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/numberValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "numberValue",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/numbervalue"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/stringValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stringValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/ExtendedValue\/stringValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stringValue",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/stringvalue"
+}
+}
+}

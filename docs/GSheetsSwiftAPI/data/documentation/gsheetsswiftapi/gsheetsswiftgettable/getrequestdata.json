@@ -1,0 +1,216 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI",
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftGettable"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftGettable\/GetRequestData"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15GSheetsSwiftAPI0aB8GettableP14GetRequestDataQa",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "associatedtype"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "GetRequestData"
+      },
+      {
+        "kind" : "text",
+        "text" : " : "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Se",
+        "text" : "Decodable"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SE",
+        "text" : "Encodable"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "GSheetsSwiftAPI"
+      }
+    ],
+    "required" : true,
+    "role" : "symbol",
+    "roleHeading" : "Associated Type",
+    "symbolKind" : "associatedtype",
+    "title" : "GetRequestData"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "associatedtype"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "GetRequestData"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Se",
+              "text" : "Decodable"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SE",
+              "text" : "Encodable"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/gsheetsswiftapi\/gsheetsswiftgettable\/getrequestdata"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "GSheetsSwiftAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftGettable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GSheetsSwiftGettable"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftGettable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GSheetsSwiftGettable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GSheetsSwiftGettable",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftgettable"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftGettable/GetRequestData": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "associatedtype"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GetRequestData"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Se",
+      "text" : "Decodable"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SE",
+      "text" : "Encodable"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftGettable\/GetRequestData",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "GetRequestData",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftgettable\/getrequestdata"
+}
+}
+}

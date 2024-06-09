@@ -1,0 +1,225 @@
+{
+  "abstract" : [
+    {
+      "text" : "Reloads the spreadsheet, similar to re-running ",
+      "type" : "text"
+    },
+    {
+      "code" : "loadSpreadsheet",
+      "type" : "codeVoice"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift",
+        "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface\/reloadSpreadsheet()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:12GSheetsSwift15SheetsInterfaceC17reloadSpreadsheetyyYaKF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "reloadSpreadsheet"
+      },
+      {
+        "kind" : "text",
+        "text" : "() "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "async"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "GSheetsSwift"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "reloadSpreadsheet()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "reloadSpreadsheet"
+            },
+            {
+              "kind" : "text",
+              "text" : "() "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "async"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/gsheetsswift\/sheetsinterface\/reloadspreadsheet()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://GSheetsSwift/documentation/GSheetsSwift": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "GSheetsSwift",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswift"
+},
+"doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SheetsInterface"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SheetsInterface"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SheetsInterface",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswift\/sheetsinterface"
+},
+"doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/reloadSpreadsheet()": {
+  "abstract" : [
+    {
+      "text" : "Reloads the spreadsheet, similar to re-running ",
+      "type" : "text"
+    },
+    {
+      "code" : "loadSpreadsheet",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "reloadSpreadsheet"
+    },
+    {
+      "kind" : "text",
+      "text" : "() "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface\/reloadSpreadsheet()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "reloadSpreadsheet()",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswift\/sheetsinterface\/reloadspreadsheet()"
+}
+}
+}

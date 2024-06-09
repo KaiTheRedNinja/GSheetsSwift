@@ -1,0 +1,325 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/VoidStringCodable"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15GSheetsSwiftAPI17VoidStringCodableV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "VoidStringCodable"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "GSheetsSwiftAPI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "VoidStringCodable"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "VoidStringCodable"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "VoidStringCodable"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/StringCodable",
+        "doc:\/\/GSheetsSwiftAPI\/Se",
+        "doc:\/\/GSheetsSwiftAPI\/SE"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/VoidStringCodable\/init()",
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/VoidStringCodable\/init(from:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/VoidStringCodable\/stringDictionaryEncoded()"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/gsheetsswiftapi\/voidstringcodable"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://GSheetsSwiftAPI/SE": {
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://GSheetsSwiftAPI/Se": {
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "GSheetsSwiftAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/StringCodable": {
+  "abstract" : [
+    {
+      "text" : "Like Codable but to ",
+      "type" : "text"
+    },
+    {
+      "code" : "[String: String]",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StringCodable"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/StringCodable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StringCodable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StringCodable",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/stringcodable"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/VoidStringCodable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "VoidStringCodable"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/VoidStringCodable",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "VoidStringCodable"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "VoidStringCodable",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/voidstringcodable"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/VoidStringCodable/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/VoidStringCodable\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/voidstringcodable\/init()"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/VoidStringCodable/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/VoidStringCodable\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/voidstringcodable\/init(from:)"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/VoidStringCodable/stringDictionaryEncoded()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stringDictionaryEncoded"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/VoidStringCodable\/stringDictionaryEncoded()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "stringDictionaryEncoded()",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/voidstringcodable\/stringdictionaryencoded()"
+}
+}
+}

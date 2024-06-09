@@ -1,0 +1,328 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/UpdateRequest"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15GSheetsSwiftAPI13UpdateRequestV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "UpdateRequest"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "GSheetsSwiftAPI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "UpdateRequest"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "UpdateRequest"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "UpdateRequest"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/GSheetsSwiftAPI\/Se",
+        "doc:\/\/GSheetsSwiftAPI\/SE"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/UpdateRequest\/init(appendCells:)",
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/UpdateRequest\/init(from:)",
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/UpdateRequest\/init(insertDimension:)",
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/UpdateRequest\/init(updateCells:)"
+      ],
+      "title" : "Initializers"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/gsheetsswiftapi\/updaterequest"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://GSheetsSwiftAPI/SE": {
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://GSheetsSwiftAPI/Se": {
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "GSheetsSwiftAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UpdateRequest"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/UpdateRequest",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UpdateRequest"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UpdateRequest",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/updaterequest"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest/init(appendCells:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "appendCells"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15GSheetsSwiftAPI18AppendCellsRequestV",
+      "text" : "AppendCellsRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/UpdateRequest\/init(appendCells:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(appendCells:)",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/updaterequest\/init(appendcells:)"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": any "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/UpdateRequest\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/updaterequest\/init(from:)"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest/init(insertDimension:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "insertDimension"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15GSheetsSwiftAPI22InsertDimensionRequestV",
+      "text" : "InsertDimensionRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/UpdateRequest\/init(insertDimension:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(insertDimension:)",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/updaterequest\/init(insertdimension:)"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest/init(updateCells:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "updateCells"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15GSheetsSwiftAPI18UpdateCellsRequestV",
+      "text" : "UpdateCellsRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/UpdateRequest\/init(updateCells:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(updateCells:)",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/updaterequest\/init(updatecells:)"
+}
+}
+}

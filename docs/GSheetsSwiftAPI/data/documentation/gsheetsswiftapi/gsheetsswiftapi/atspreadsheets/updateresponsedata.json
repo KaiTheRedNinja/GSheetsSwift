@@ -1,0 +1,292 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "GSheetsSwiftUpdatable.UpdateResponseData",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI",
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftAPI",
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftAPI\/ATSpreadsheets",
+        "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftAPI\/ATSpreadsheets\/GSheetsSwiftUpdatable-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftAPI\/ATSpreadsheets\/UpdateResponseData"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "GSheetsSwiftAPI",
+    "externalID" : "s:15GSheetsSwiftAPIAAO14ATSpreadsheetsO18UpdateResponseDataa",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "typealias"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "UpdateResponseData"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "GSheetsSwiftAPI"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "UpdateResponseData"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Alias",
+    "symbolKind" : "typealias",
+    "title" : "GSheetsSwiftAPI.ATSpreadsheets.UpdateResponseData"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "typealias"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "UpdateResponseData"
+            },
+            {
+              "kind" : "text",
+              "text" : " = "
+            },
+            {
+              "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftAPI",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15GSheetsSwiftAPIAAO",
+              "text" : "GSheetsSwiftAPI"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftAPI\/ATSpreadsheets",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15GSheetsSwiftAPIAAO14ATSpreadsheetsO",
+              "text" : "ATSpreadsheets"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftAPI\/ATSpreadsheets\/UpdatableResponseData",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15GSheetsSwiftAPIAAO14ATSpreadsheetsO21UpdatableResponseDataV",
+              "text" : "UpdatableResponseData"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updateresponsedata"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "GSheetsSwiftAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GSheetsSwiftAPI"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftAPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GSheetsSwiftAPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GSheetsSwiftAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ATSpreadsheets"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftAPI\/ATSpreadsheets",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ATSpreadsheets"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GSheetsSwiftAPI.ATSpreadsheets",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets/GSheetsSwiftUpdatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftAPI\/ATSpreadsheets\/GSheetsSwiftUpdatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "GSheetsSwiftUpdatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/gsheetsswiftupdatable-implementations"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets/UpdatableResponseData": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UpdatableResponseData"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftAPI\/ATSpreadsheets\/UpdatableResponseData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UpdatableResponseData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GSheetsSwiftAPI.ATSpreadsheets.UpdatableResponseData",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updatableresponsedata"
+},
+"doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets/UpdateResponseData": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UpdateResponseData"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftAPI\/documentation\/GSheetsSwiftAPI\/GSheetsSwiftAPI\/ATSpreadsheets\/UpdateResponseData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UpdateResponseData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GSheetsSwiftAPI.ATSpreadsheets.UpdateResponseData",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updateresponsedata"
+}
+}
+}

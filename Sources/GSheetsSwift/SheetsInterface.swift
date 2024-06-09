@@ -20,7 +20,7 @@ public class SheetsInterface: ObservableObject {
 
     public init() {}
 
-    /// The oauth access token. Wrapper for ``APISecretManager.accessToken``.
+    /// The oauth access token. Wrapper for `APICaller.APISecretManager.accessToken`.
     public static var accessToken: String {
         get { APISecretManager.accessToken }
         set { APISecretManager.accessToken = newValue }
@@ -280,7 +280,7 @@ public struct CellContent: Hashable {
     }
 }
 
-public extension Array {
+extension Array {
     func at(_ index: Index) -> Element? {
         if index >= 0 && index < self.count {
             return self[index]

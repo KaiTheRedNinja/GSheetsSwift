@@ -1,0 +1,239 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Classes",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/changedelegate",
+                "title" : "var changeDelegate: (any SheetsInterfaceChangeDelegate)?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/spreadsheet",
+                "title" : "var spreadsheet: Spreadsheet?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/targetsheet",
+                "title" : "var targetSheet: Sheet?",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/appendrow(_:updateinternalrepresentation:)",
+                "title" : "func appendRow([RowData], updateInternalRepresentation: Bool)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/focussheet(name:)",
+                "title" : "func focusSheet(name: String)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/insertrange(_:direction:updateinternalrepresentation:)",
+                "title" : "func insertRange(Range<Int>, direction: DimensionEnum, updateInternalRepresentation: Bool)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/loadspreadsheet(id:)",
+                "title" : "func loadSpreadsheet(id: String) async throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/namesofsheets()",
+                "title" : "func namesOfSheets() -> [String]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/readall()",
+                "title" : "func readAll() -> [[CellContent]]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/readcell(row:col:)",
+                "title" : "func readCell(row: Int, col: Int) -> CellContent?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/readcolumn(_:startrow:endrow:)",
+                "title" : "func readColumn(Int, startRow: Int?, endRow: Int?) -> [CellContent]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/readrow(_:startcol:endcol:)",
+                "title" : "func readRow(Int, startCol: Int?, endCol: Int?) -> [CellContent]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/reloadspreadsheet()",
+                "title" : "func reloadSpreadsheet() async throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/resetspreadsheet()",
+                "title" : "func resetSpreadsheet()",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/update(requests:updateinternalrepresentation:)",
+                "title" : "func update(requests: [UpdateRequest], updateInternalRepresentation: Bool)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/writecell(contents:row:col:updateinternalrepresentation:)",
+                "title" : "func writeCell(contents: String, row: Int, col: Int, updateInternalRepresentation: Bool)",
+                "type" : "method"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/accesstoken",
+                "title" : "static var accessToken: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/objectwillchange",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterface\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswift\/sheetsinterface",
+            "title" : "SheetsInterface",
+            "type" : "class"
+          },
+          {
+            "title" : "Protocols",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterfacechangedelegate\/spreadsheetdidchange(interface:spreadsheet:)",
+                "title" : "func spreadsheetDidChange(interface: SheetsInterface, spreadsheet: Spreadsheet?)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/sheetsinterfacechangedelegate\/targetsheetdidchange(interface:targetsheet:)",
+                "title" : "func targetSheetDidChange(interface: SheetsInterface, targetSheet: Sheet?)",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswift\/sheetsinterfacechangedelegate",
+            "title" : "SheetsInterfaceChangeDelegate",
+            "type" : "protocol"
+          },
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/cellcontent\/init(row:col:content:)",
+                "title" : "init(row: Int, col: Int, content: String?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/cellcontent\/col",
+                "title" : "var col: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/cellcontent\/content",
+                "title" : "var content: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswift\/cellcontent\/row",
+                "title" : "var row: Int",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswift\/cellcontent\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswift\/cellcontent\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswift\/cellcontent",
+            "title" : "CellContent",
+            "type" : "struct"
+          }
+        ],
+        "path" : "\/documentation\/gsheetsswift",
+        "title" : "GSheetsSwift",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 1
+  }
+}

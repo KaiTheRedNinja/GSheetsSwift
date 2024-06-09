@@ -1,0 +1,1229 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Operators",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/celldata\/==(_:_:)",
+                "title" : "static func == (CellData, CellData) -> Bool",
+                "type" : "op"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/celldata\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/celldata\/init(userenteredvalue:effectivevalue:formattedvalue:)",
+                "title" : "init(userEnteredValue: ExtendedValue?, effectiveValue: ExtendedValue?, formattedValue: String?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/celldata\/effectivevalue",
+                "title" : "var effectiveValue: ExtendedValue?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/celldata\/formattedvalue",
+                "title" : "var formattedValue: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/celldata\/userenteredvalue",
+                "title" : "var userEnteredValue: ExtendedValue?",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/celldata\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/celldata\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/celldata",
+            "title" : "CellData",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/datasourcecolumnreference\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/datasourcecolumnreference\/name",
+                "title" : "var name: String",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/datasourcecolumnreference",
+            "title" : "DataSourceColumnReference",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadata\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadata\/location",
+                "title" : "var location: DeveloperMetadataLocation",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadata\/metadataid",
+                "title" : "var metadataId: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadata\/metadatakey",
+                "title" : "var metadataKey: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadata\/metadatavalue",
+                "title" : "var metadataValue: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadata\/visibility",
+                "title" : "var visibility: DeveloperMetadataVisibility",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/developermetadata",
+            "title" : "DeveloperMetadata",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocation\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocation\/dimensionrange",
+                "title" : "var dimensionRange: DimensionRange",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocation\/locationtype",
+                "title" : "var locationType: DeveloperMetadataLocationType",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocation\/sheetid",
+                "title" : "var sheetId: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocation\/spreadsheet",
+                "title" : "var spreadsheet: Bool",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocation",
+            "title" : "DeveloperMetadataLocation",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionproperties\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionproperties\/datasourcecolumnreference",
+                "title" : "var dataSourceColumnReference: DataSourceColumnReference?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionproperties\/developermetadata",
+                "title" : "var developerMetadata: [DeveloperMetadata]?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionproperties\/hiddenbyfilter",
+                "title" : "var hiddenByFilter: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionproperties\/hiddenbyuser",
+                "title" : "var hiddenByUser: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionproperties\/pixelsize",
+                "title" : "var pixelSize: Int?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/dimensionproperties",
+            "title" : "DimensionProperties",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionrange\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionrange\/init(sheetid:dimension:startindex:endindex:)",
+                "title" : "init(sheetId: Int, dimension: DimensionEnum, startIndex: Int, endIndex: Int)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionrange\/dimension",
+                "title" : "var dimension: DimensionEnum",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionrange\/endindex",
+                "title" : "var endIndex: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionrange\/sheetid",
+                "title" : "var sheetId: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionrange\/startindex",
+                "title" : "var startIndex: Int",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/dimensionrange",
+            "title" : "DimensionRange",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Operators",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errorvalue\/==(_:_:)",
+                "title" : "static func == (ErrorValue, ErrorValue) -> Bool",
+                "type" : "op"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errorvalue\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errorvalue\/message",
+                "title" : "var message: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errorvalue\/type",
+                "title" : "var type: ErrorType",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/errorvalue\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/errorvalue\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/errorvalue",
+            "title" : "ErrorValue",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Operators",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/==(_:_:)",
+                "title" : "static func == (ExtendedValue, ExtendedValue) -> Bool",
+                "type" : "op"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/init(numbervalue:stringvalue:boolvalue:formulavalue:errorvalue:)",
+                "title" : "init(numberValue: Double?, stringValue: String?, boolValue: Bool?, formulaValue: String?, errorValue: ErrorValue?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/boolvalue",
+                "title" : "var boolValue: Bool?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/errorvalue",
+                "title" : "var errorValue: ErrorValue?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/formulavalue",
+                "title" : "var formulaValue: String?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/numbervalue",
+                "title" : "var numberValue: Double?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/stringvalue",
+                "title" : "var stringValue: String?",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/extendedvalue\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/extendedvalue",
+            "title" : "ExtendedValue",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/gridcoordinate\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/gridcoordinate\/init(sheetid:rowindex:columnindex:)",
+                "title" : "init(sheetId: Int, rowIndex: Int, columnIndex: Int)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/gridcoordinate\/columnindex",
+                "title" : "var columnIndex: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/gridcoordinate\/rowindex",
+                "title" : "var rowIndex: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/gridcoordinate\/sheetid",
+                "title" : "var sheetId: Int",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/gridcoordinate",
+            "title" : "GridCoordinate",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Operators",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/griddata\/==(_:_:)",
+                "title" : "static func == (GridData, GridData) -> Bool",
+                "type" : "op"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/griddata\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/griddata\/rowdata",
+                "title" : "var rowData: [RowData]",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/griddata\/startcolumn",
+                "title" : "var startColumn: Int?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/griddata\/startrow",
+                "title" : "var startRow: Int?",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/griddata\/encode(to:)",
+                "title" : "func encode(to: any Encoder) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/griddata\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/griddata\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/griddata",
+            "title" : "GridData",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/gridrange\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/gridrange\/init(sheetid:startrowindex:endrowindex:startcolumnindex:endcolumnindex:)",
+                "title" : "init(sheetId: Int, startRowIndex: Int, endRowIndex: Int, startColumnIndex: Int, endColumnIndex: Int)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/gridrange\/endcolumnindex",
+                "title" : "var endColumnIndex: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/gridrange\/endrowindex",
+                "title" : "var endRowIndex: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/gridrange\/sheetid",
+                "title" : "var sheetId: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/gridrange\/startcolumnindex",
+                "title" : "var startColumnIndex: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/gridrange\/startrowindex",
+                "title" : "var startRowIndex: Int",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/gridrange",
+            "title" : "GridRange",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Operators",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/rowdata\/==(_:_:)",
+                "title" : "static func == (RowData, RowData) -> Bool",
+                "type" : "op"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/rowdata\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/rowdata\/init(values:)",
+                "title" : "init(values: [CellData])",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/rowdata\/values",
+                "title" : "var values: [CellData]",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/rowdata\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/rowdata\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/rowdata",
+            "title" : "RowData",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Operators",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/sheet\/==(_:_:)",
+                "title" : "static func == (Sheet, Sheet) -> Bool",
+                "type" : "op"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/sheet\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/sheet\/data",
+                "title" : "var data: [GridData]",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/sheet\/properties",
+                "title" : "var properties: SheetProperties",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/sheet\/encode(to:)",
+                "title" : "func encode(to: any Encoder) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/sheet\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/sheet\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/sheet",
+            "title" : "Sheet",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/sheetproperties\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/sheetproperties\/index",
+                "title" : "var index: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/sheetproperties\/sheetid",
+                "title" : "var sheetId: Int",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/sheetproperties\/title",
+                "title" : "var title: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/sheetproperties\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/sheetproperties\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/sheetproperties",
+            "title" : "SheetProperties",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/spreadsheet\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/spreadsheet\/sheets",
+                "title" : "var sheets: [Sheet]",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/spreadsheet\/spreadsheetid",
+                "title" : "var spreadsheetId: String",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/spreadsheet",
+            "title" : "Spreadsheet",
+            "type" : "struct"
+          },
+          {
+            "title" : "Enumerations",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/column",
+                "title" : "case column",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/developer_metadata_location_type_unspecified",
+                "title" : "case developer_metadata_location_type_unspecified",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/row",
+                "title" : "case row",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/sheet",
+                "title" : "case sheet",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/spreadsheet",
+                "title" : "case spreadsheet",
+                "type" : "case"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/init(rawvalue:)",
+                "title" : "init?(rawValue: String)",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/init(from:)",
+                    "title" : "init(from: any Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/hashvalue",
+                    "title" : "var hashValue: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/encode(to:)",
+                    "title" : "func encode(to: any Encoder) throws",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype\/rawrepresentable-implementations",
+                "title" : "RawRepresentable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/developermetadatalocationtype",
+            "title" : "DeveloperMetadataLocationType",
+            "type" : "enum"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatavisibility\/developer_metadata_visibility_unspecified",
+                "title" : "case developer_metadata_visibility_unspecified",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatavisibility\/document",
+                "title" : "case document",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatavisibility\/project",
+                "title" : "case project",
+                "type" : "case"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatavisibility\/init(rawvalue:)",
+                "title" : "init?(rawValue: String)",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/developermetadatavisibility\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatavisibility\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/developermetadatavisibility\/init(from:)",
+                    "title" : "init(from: any Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/developermetadatavisibility\/hashvalue",
+                    "title" : "var hashValue: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/developermetadatavisibility\/encode(to:)",
+                    "title" : "func encode(to: any Encoder) throws",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/developermetadatavisibility\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/developermetadatavisibility\/rawrepresentable-implementations",
+                "title" : "RawRepresentable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/developermetadatavisibility",
+            "title" : "DeveloperMetadataVisibility",
+            "type" : "enum"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionenum\/columns",
+                "title" : "case columns",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionenum\/dimension_unspecified",
+                "title" : "case dimension_unspecified",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionenum\/rows",
+                "title" : "case rows",
+                "type" : "case"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionenum\/init(rawvalue:)",
+                "title" : "init?(rawValue: String)",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/dimensionenum\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionenum\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/dimensionenum\/init(from:)",
+                    "title" : "init(from: any Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/dimensionenum\/hashvalue",
+                    "title" : "var hashValue: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/dimensionenum\/encode(to:)",
+                    "title" : "func encode(to: any Encoder) throws",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/dimensionenum\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/dimensionenum\/rawrepresentable-implementations",
+                "title" : "RawRepresentable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/dimensionenum",
+            "title" : "DimensionEnum",
+            "type" : "enum"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/divider_by_zero",
+                "title" : "case divider_by_zero",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/error",
+                "title" : "case error",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/error_type_unspecified",
+                "title" : "case error_type_unspecified",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/loadin",
+                "title" : "case loadin",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/n_a",
+                "title" : "case n_a",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/name",
+                "title" : "case name",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/null_value",
+                "title" : "case null_value",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/num",
+                "title" : "case num",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/ref",
+                "title" : "case ref",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/value",
+                "title" : "case value",
+                "type" : "case"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/init(rawvalue:)",
+                "title" : "init?(rawValue: String)",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/errortype\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/errortype\/init(from:)",
+                    "title" : "init(from: any Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/errortype\/hashvalue",
+                    "title" : "var hashValue: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/errortype\/encode(to:)",
+                    "title" : "func encode(to: any Encoder) throws",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/gsheetsswifttypes\/errortype\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswifttypes\/errortype\/rawrepresentable-implementations",
+                "title" : "RawRepresentable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswifttypes\/errortype",
+            "title" : "ErrorType",
+            "type" : "enum"
+          }
+        ],
+        "path" : "\/documentation\/gsheetsswifttypes",
+        "title" : "GSheetsSwiftTypes",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 1
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Protocols",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapiprotocol",
+            "title" : "GSheetsSwiftAPIProtocol",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Associated Types",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftgettable\/getpathparameters",
+                "title" : "GetPathParameters",
+                "type" : "associatedtype"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftgettable\/getqueryparameters",
+                "title" : "GetQueryParameters",
+                "type" : "associatedtype"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftgettable\/getrequestdata",
+                "title" : "GetRequestData",
+                "type" : "associatedtype"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftgettable\/getresponsedata",
+                "title" : "GetResponseData",
+                "type" : "associatedtype"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftgettable\/apigettable",
+                "title" : "static var apiGettable: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftgettable\/get(params:query:data:completion:)-k7cp",
+                        "title" : "static func get(params: Self.GetPathParameters, query: Self.GetQueryParameters, data: Self.GetRequestData, completion: (Result<Self.GetResponseData, any Error>) -> Void)",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "GSheetsSwiftGettable Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftgettable\/get(params:query:data:completion:)-9ov2",
+                "title" : "static func get(params: Self.GetPathParameters, query: Self.GetQueryParameters, data: Self.GetRequestData, completion: (Result<Self.GetResponseData, any Error>) -> Void)",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftgettable",
+            "title" : "GSheetsSwiftGettable",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Associated Types",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftupdatable\/updatepathparameters",
+                "title" : "UpdatePathParameters",
+                "type" : "associatedtype"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftupdatable\/updatequeryparameters",
+                "title" : "UpdateQueryParameters",
+                "type" : "associatedtype"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftupdatable\/updaterequestdata",
+                "title" : "UpdateRequestData",
+                "type" : "associatedtype"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftupdatable\/updateresponsedata",
+                "title" : "UpdateResponseData",
+                "type" : "associatedtype"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftupdatable\/apiupdatable",
+                "title" : "static var apiUpdatable: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftupdatable\/update(params:query:data:completion:)-9mj3i",
+                        "title" : "static func update(params: Self.UpdatePathParameters, query: Self.UpdateQueryParameters, data: Self.UpdateRequestData, completion: (Result<Self.UpdateResponseData, any Error>) -> Void)",
+                        "type" : "method"
+                      }
+                    ],
+                    "title" : "GSheetsSwiftUpdatable Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftupdatable\/update(params:query:data:completion:)-3f0yn",
+                "title" : "static func update(params: Self.UpdatePathParameters, query: Self.UpdateQueryParameters, data: Self.UpdateRequestData, completion: (Result<Self.UpdateResponseData, any Error>) -> Void)",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftupdatable",
+            "title" : "GSheetsSwiftUpdatable",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/stringcodable\/stringdictionaryencoded()",
+                "title" : "func stringDictionaryEncoded() -> [String : String]",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswiftapi\/stringcodable",
+            "title" : "StringCodable",
+            "type" : "protocol"
+          },
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/appendcellsrequest\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/appendcellsrequest\/init(sheetid:rows:fields:)",
+                "title" : "init(sheetId: Int, rows: [RowData], fields: String)",
+                "type" : "init"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswiftapi\/appendcellsrequest",
+            "title" : "AppendCellsRequest",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/insertdimensionrequest\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/insertdimensionrequest\/init(range:inheritfrombefore:)",
+                "title" : "init(range: DimensionRange, inheritFromBefore: Bool)",
+                "type" : "init"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswiftapi\/insertdimensionrequest",
+            "title" : "InsertDimensionRequest",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/updatecellsrequest\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/updatecellsrequest\/init(rows:fields:start:range:)",
+                "title" : "init(rows: [RowData], fields: String, start: GridCoordinate, range: GridRange?)",
+                "type" : "init"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswiftapi\/updatecellsrequest",
+            "title" : "UpdateCellsRequest",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/updaterequest\/init(appendcells:)",
+                "title" : "init(appendCells: AppendCellsRequest)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/updaterequest\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/updaterequest\/init(insertdimension:)",
+                "title" : "init(insertDimension: InsertDimensionRequest)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/updaterequest\/init(updatecells:)",
+                "title" : "init(updateCells: UpdateCellsRequest)",
+                "type" : "init"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswiftapi\/updaterequest",
+            "title" : "UpdateRequest",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/voidstringcodable\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/voidstringcodable\/init(from:)",
+                "title" : "init(from: any Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/voidstringcodable\/stringdictionaryencoded()",
+                "title" : "func stringDictionaryEncoded() -> [String : String]",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswiftapi\/voidstringcodable",
+            "title" : "VoidStringCodable",
+            "type" : "struct"
+          },
+          {
+            "title" : "Enumerations",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/gsheetsswiftapi\/apisecretmanager\/accesstoken",
+                "title" : "static var accessToken: String",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswiftapi\/apisecretmanager",
+            "title" : "APISecretManager",
+            "type" : "enum"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Structures",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/gettablequeryparameters\/init(ranges:includegriddata:)",
+                        "title" : "init(ranges: String?, includeGridData: Bool)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/gettablequeryparameters\/stringdictionaryencoded()",
+                        "title" : "func stringDictionaryEncoded() -> [String : String]",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/gettablequeryparameters",
+                    "title" : "GSheetsSwiftAPI.ATSpreadsheets.GettableQueryParameters",
+                    "type" : "struct"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/spreadsheetidpathparameters\/init(spreadsheetid:)",
+                        "title" : "init(spreadsheetId: String)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/spreadsheetidpathparameters\/stringdictionaryencoded()",
+                        "title" : "func stringDictionaryEncoded() -> [String : String]",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/spreadsheetidpathparameters",
+                    "title" : "GSheetsSwiftAPI.ATSpreadsheets.SpreadsheetIdPathParameters",
+                    "type" : "struct"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updatablerequestdata\/init(from:)",
+                        "title" : "init(from: any Decoder) throws",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updatablerequestdata\/init(requests:includespreadsheetinresponse:responseranges:responseincludegriddata:)",
+                        "title" : "init(requests: [UpdateRequest], includeSpreadsheetInResponse: Bool, responseRanges: [String], responseIncludeGridData: Bool)",
+                        "type" : "init"
+                      }
+                    ],
+                    "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updatablerequestdata",
+                    "title" : "GSheetsSwiftAPI.ATSpreadsheets.UpdatableRequestData",
+                    "type" : "struct"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updatableresponsedata\/init(from:)",
+                        "title" : "init(from: any Decoder) throws",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updatableresponsedata\/spreadsheetid",
+                        "title" : "var spreadsheetId: String",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updatableresponsedata\/updatedspreadsheet",
+                        "title" : "var updatedSpreadsheet: Spreadsheet?",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updatableresponsedata",
+                    "title" : "GSheetsSwiftAPI.ATSpreadsheets.UpdatableResponseData",
+                    "type" : "struct"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/getpathparameters",
+                        "title" : "GSheetsSwiftAPI.ATSpreadsheets.GetPathParameters",
+                        "type" : "typealias"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/getqueryparameters",
+                        "title" : "GSheetsSwiftAPI.ATSpreadsheets.GetQueryParameters",
+                        "type" : "typealias"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/getrequestdata",
+                        "title" : "GSheetsSwiftAPI.ATSpreadsheets.GetRequestData",
+                        "type" : "typealias"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/getresponsedata",
+                        "title" : "GSheetsSwiftAPI.ATSpreadsheets.GetResponseData",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/apigettable",
+                        "title" : "static var apiGettable: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/get(params:query:data:completion:)",
+                        "title" : "static func get(params: Self.GetPathParameters, query: Self.GetQueryParameters, data: Self.GetRequestData, completion: (Result<Self.GetResponseData, any Error>) -> Void)",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/gsheetsswiftgettable-implementations",
+                    "title" : "GSheetsSwiftGettable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Aliases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updatepathparameters",
+                        "title" : "GSheetsSwiftAPI.ATSpreadsheets.UpdatePathParameters",
+                        "type" : "typealias"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updatequeryparameters",
+                        "title" : "GSheetsSwiftAPI.ATSpreadsheets.UpdateQueryParameters",
+                        "type" : "typealias"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updaterequestdata",
+                        "title" : "GSheetsSwiftAPI.ATSpreadsheets.UpdateRequestData",
+                        "type" : "typealias"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/updateresponsedata",
+                        "title" : "GSheetsSwiftAPI.ATSpreadsheets.UpdateResponseData",
+                        "type" : "typealias"
+                      },
+                      {
+                        "title" : "Type Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/apiupdatable",
+                        "title" : "static var apiUpdatable: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/update(params:query:data:completion:)",
+                        "title" : "static func update(params: Self.UpdatePathParameters, query: Self.UpdateQueryParameters, data: Self.UpdateRequestData, completion: (Result<Self.UpdateResponseData, any Error>) -> Void)",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets\/gsheetsswiftupdatable-implementations",
+                    "title" : "GSheetsSwiftUpdatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi\/atspreadsheets",
+                "title" : "GSheetsSwiftAPI.ATSpreadsheets",
+                "type" : "enum"
+              }
+            ],
+            "path" : "\/documentation\/gsheetsswiftapi\/gsheetsswiftapi",
+            "title" : "GSheetsSwiftAPI",
+            "type" : "enum"
+          }
+        ],
+        "path" : "\/documentation\/gsheetsswiftapi",
+        "title" : "GSheetsSwiftAPI",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 1
+  }
+}
