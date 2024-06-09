@@ -1,4 +1,14 @@
 {
+  "abstract" : [
+    {
+      "text" : "A simplified interface to a Google Sheet, which implements commonly used APIs in ",
+      "type" : "text"
+    },
+    {
+      "code" : "GSheetsSwiftAPI",
+      "type" : "codeVoice"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -70,6 +80,64 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "This interface is the recommended way to interface with Google Sheets via GSheetsSwift, unless you need",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "more precise control over exactly how commands are called.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Note that this sheets interface currently assumes that your data is ",
+              "type" : "text"
+            },
+            {
+              "inlineContent" : [
+                {
+                  "text" : "continuous",
+                  "type" : "text"
+                }
+              ],
+              "type" : "emphasis"
+            },
+            {
+              "text" : ". That means that if your data",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "has empty rows between populated rows or empty columns between populated columns, it may behave weirdly.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -169,7 +237,14 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface": {
   "abstract" : [
-
+    {
+      "text" : "A simplified interface to a Google Sheet, which implements commonly used APIs in ",
+      "type" : "text"
+    },
+    {
+      "code" : "GSheetsSwiftAPI",
+      "type" : "codeVoice"
+    }
   ],
   "fragments" : [
     {
@@ -322,7 +397,18 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/changeDelegate": {
   "abstract" : [
-
+    {
+      "text" : "The change delegate, which is informed when any changes are made to the internal representation of the google",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "sheet, by this interface.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -361,7 +447,16 @@
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/focusSheet(name:)": {
   "abstract" : [
     {
-      "text" : "Focuses a sheet within the spreadsheet with a given name",
+      "text" : "Focuses a sheet within the spreadsheet with a given name. This sets the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface\/targetSheet",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " property.",
       "type" : "text"
     }
   ],
@@ -409,7 +504,14 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/init()": {
   "abstract" : [
-
+    {
+      "text" : "Creates an empty ",
+      "type" : "text"
+    },
+    {
+      "code" : "SheetsInterface",
+      "type" : "codeVoice"
+    }
   ],
   "fragments" : [
     {
@@ -430,7 +532,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/insertRange(_:direction:updateInternalRepresentation:)": {
   "abstract" : [
-
+    {
+      "text" : "Inserts empty rows or columns in a range, pushing data to the right or bottom if needed.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -654,7 +759,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/readCell(row:col:)": {
   "abstract" : [
-
+    {
+      "text" : "Reads the contents at a given cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -735,7 +843,7 @@
       "type" : "text"
     },
     {
-      "text" : "May return less than the specified number of rows.",
+      "text" : "May return less than the specified number of columns.",
       "type" : "text"
     }
   ],
@@ -998,7 +1106,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/spreadsheet": {
   "abstract" : [
-
+    {
+      "text" : "The current spreadsheet loaded into the interface",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1036,7 +1147,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/targetSheet": {
   "abstract" : [
-
+    {
+      "text" : "The current sheet within the spreadsheet that the interface is performing read\/write operations on",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1074,7 +1188,18 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/update(requests:updateInternalRepresentation:)": {
   "abstract" : [
-
+    {
+      "text" : "Batch-sends update requests. Usually used to send multiple requests at the same time, instead of",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "individually.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

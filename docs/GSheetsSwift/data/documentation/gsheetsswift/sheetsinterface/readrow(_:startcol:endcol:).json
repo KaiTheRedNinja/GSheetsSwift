@@ -208,6 +208,73 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The row to read",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "row"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The column to start reading from",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "startCol"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The column to end reading",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "endCol"
+        }
+      ]
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "An array, from left to right, of the content within the cells",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -245,7 +312,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/CellContent": {
   "abstract" : [
-
+    {
+      "text" : "The content of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -276,7 +346,14 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface": {
   "abstract" : [
-
+    {
+      "text" : "A simplified interface to a Google Sheet, which implements commonly used APIs in ",
+      "type" : "text"
+    },
+    {
+      "code" : "GSheetsSwiftAPI",
+      "type" : "codeVoice"
+    }
   ],
   "fragments" : [
     {

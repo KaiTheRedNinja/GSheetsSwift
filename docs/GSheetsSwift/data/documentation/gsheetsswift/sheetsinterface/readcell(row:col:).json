@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Reads the contents at a given cell",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -160,6 +166,59 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The row of the cell",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "row"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The column of the cell",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "col"
+        }
+      ]
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The content at the cell, if it exists",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -197,7 +256,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/CellContent": {
   "abstract" : [
-
+    {
+      "text" : "The content of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -228,7 +290,14 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface": {
   "abstract" : [
-
+    {
+      "text" : "A simplified interface to a Google Sheet, which implements commonly used APIs in ",
+      "type" : "text"
+    },
+    {
+      "code" : "GSheetsSwiftAPI",
+      "type" : "codeVoice"
+    }
   ],
   "fragments" : [
     {
@@ -259,7 +328,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/readCell(row:col:)": {
   "abstract" : [
-
+    {
+      "text" : "Reads the contents at a given cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -211,7 +211,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/CellContent": {
   "abstract" : [
-
+    {
+      "text" : "The content of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

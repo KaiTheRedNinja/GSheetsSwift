@@ -147,6 +147,56 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "An array of rows, top to bottom, to append to the bottom of the data",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "rows"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Whether the write should update ",
+                  "type" : "text"
+                },
+                {
+                  "identifier" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface\/spreadsheet",
+                  "isActive" : true,
+                  "type" : "reference"
+                },
+                {
+                  "text" : ". Note that this",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "may increase the time taken for requests to complete.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "updateInternalRepresentation"
+        }
+      ]
     }
   ],
   "schemaVersion" : {
@@ -184,7 +234,14 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface": {
   "abstract" : [
-
+    {
+      "text" : "A simplified interface to a Google Sheet, which implements commonly used APIs in ",
+      "type" : "text"
+    },
+    {
+      "code" : "GSheetsSwiftAPI",
+      "type" : "codeVoice"
+    }
   ],
   "fragments" : [
     {
@@ -270,6 +327,47 @@
   "title" : "appendRow(_:updateInternalRepresentation:)",
   "type" : "topic",
   "url" : "\/documentation\/gsheetsswift\/sheetsinterface\/appendrow(_:updateinternalrepresentation:)"
+},
+"doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/spreadsheet": {
+  "abstract" : [
+    {
+      "text" : "The current spreadsheet loaded into the interface",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "spreadsheet"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17GSheetsSwiftTypes11SpreadsheetV",
+      "text" : "Spreadsheet"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface\/spreadsheet",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "spreadsheet",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswift\/sheetsinterface\/spreadsheet"
 }
 }
 }

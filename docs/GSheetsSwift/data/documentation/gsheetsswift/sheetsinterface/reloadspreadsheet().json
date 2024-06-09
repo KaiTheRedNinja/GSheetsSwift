@@ -144,7 +144,14 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface": {
   "abstract" : [
-
+    {
+      "text" : "A simplified interface to a Google Sheet, which implements commonly used APIs in ",
+      "type" : "text"
+    },
+    {
+      "code" : "GSheetsSwiftAPI",
+      "type" : "codeVoice"
+    }
   ],
   "fragments" : [
     {

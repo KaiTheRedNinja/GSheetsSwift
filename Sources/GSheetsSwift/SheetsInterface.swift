@@ -5,22 +5,38 @@ import Foundation
 import GSheetsSwiftAPI
 import GSheetsSwiftTypes
 
+/// A simplified interface to a Google Sheet, which implements commonly used APIs in `GSheetsSwiftAPI`
+///
+/// This interface is the recommended way to interface with Google Sheets via GSheetsSwift, unless you need
+/// more precise control over exactly how commands are called.
+///
+/// Note that this sheets interface currently assumes that your data is *continuous*. That means that if your data
+/// has empty rows between populated rows or empty columns between populated columns, it may behave weirdly.
 public class SheetsInterface: ObservableObject {
+    /// The current spreadsheet loaded into the interface
     @Published private(set) public var spreadsheet: Spreadsheet? {
         didSet {
             changeDelegate?.spreadsheetDidChange(interface: self, spreadsheet: spreadsheet)
         }
     }
+    /// The current sheet within the spreadsheet that the interface is performing read/write operations on
     @Published private(set) public var targetSheet: Sheet? {
         didSet {
             changeDelegate?.targetSheetDidChange(interface: self, targetSheet: targetSheet)
         }
     }
+    /// The change delegate, which is informed when any changes are made to the internal representation of the google
+    /// sheet, by this interface.
+    ///
+    /// Note that this does not detect changes made by *other* editors of the google sheet, only *this* `SheetsInterface`
     public weak var changeDelegate: SheetsInterfaceChangeDelegate?
 
+    /// Creates an empty `SheetsInterface`
     public init() {}
 
     /// The oauth access token. Wrapper for `APICaller.APISecretManager.accessToken`.
+    ///
+    /// This access token is shared throughout the entire app
     public static var accessToken: String {
         get { APISecretManager.accessToken }
         set { APISecretManager.accessToken = newValue }
@@ -48,6 +64,7 @@ public class SheetsInterface: ObservableObject {
         }
     }
 
+    /// Errors that the sheets interface can encounter
     enum SheetsInterfaceError: Error {
         case noSheetToRefresh
     }
@@ -66,18 +83,25 @@ public class SheetsInterface: ObservableObject {
     }
 
     /// Gets the names for sheets
+    /// - Returns: The names of the sheets
     public func namesOfSheets() -> [String] {
         guard let spreadsheet else { return [] }
         return spreadsheet.sheets.map({ $0.properties.title })
     }
 
-    /// Focuses a sheet within the spreadsheet with a given name
+    /// Focuses a sheet within the spreadsheet with a given name. This sets the ``targetSheet`` property.
+    /// - Parameter name: The name of the sheet to focus
     public func focusSheet(name: String) {
         self.targetSheet = spreadsheet?.sheets.first(where: { $0.properties.title == name })
     }
 
     /// Returns the contents of the specified row number, starting from startCol and ending before endCol.
     /// May return less than the specified number of rows.
+    /// - Parameters:
+    ///   - row: The row to read
+    ///   - startCol: The column to start reading from
+    ///   - endCol: The column to end reading
+    /// - Returns: An array, from left to right, of the content within the cells
     public func readRow(
         _ row: Int,
         startCol: Int? = nil,
@@ -113,7 +137,12 @@ public class SheetsInterface: ObservableObject {
     }
 
     /// Returns the contents of the specified column number, starting from startRow and ending before endRow.
-    /// May return less than the specified number of rows.
+    /// May return less than the specified number of columns.
+    /// - Parameters:
+    ///   - col: The column to read
+    ///   - startRow: The row to start reading from
+    ///   - endRow: The row to end reading
+    /// - Returns: An array, from top to bottom, of the content within the cells
     public func readColumn(
         _ col: Int,
         startRow: Int? = nil,
@@ -141,7 +170,12 @@ public class SheetsInterface: ObservableObject {
             return true
         }
     }
-
+    
+    /// Reads the contents at a given cell
+    /// - Parameters:
+    ///   - row: The row of the cell
+    ///   - col: The column of the cell
+    /// - Returns: The content at the cell, if it exists
     public func readCell(
         row: Int,
         col: Int
@@ -154,6 +188,7 @@ public class SheetsInterface: ObservableObject {
     }
 
     /// Reads all contents from a sheet
+    /// - Returns: A grid containing the content of the cell
     public func readAll() -> [[CellContent]] {
         guard let targetSheet, let grid = targetSheet.data.first else { return [] }
 
@@ -168,6 +203,12 @@ public class SheetsInterface: ObservableObject {
     }
 
     /// Writes the contents at the specified cell
+    /// - Parameters:
+    ///   - contents: The string content to write to the given cell
+    ///   - row: The row of the cell to write to
+    ///   - col: The column of the cell to write to
+    ///   - updateInternalRepresentation: Whether the write should update ``spreadsheet``. Note that this
+    ///   may increase the time taken for requests to complete.
     public func writeCell(
         contents: String,
         row: Int,
@@ -191,6 +232,10 @@ public class SheetsInterface: ObservableObject {
     }
 
     /// Appends a row below the last row with data, creating it if nescessary
+    /// - Parameters:
+    ///   - rows: An array of rows, top to bottom, to append to the bottom of the data
+    ///   - updateInternalRepresentation: Whether the write should update ``spreadsheet``. Note that this
+    ///   may increase the time taken for requests to complete.
     public func appendRow(
         _ rows: [RowData],
         updateInternalRepresentation: Bool = false
@@ -211,6 +256,12 @@ public class SheetsInterface: ObservableObject {
         )
     }
 
+    /// Inserts empty rows or columns in a range, pushing data to the right or bottom if needed.
+    /// - Parameters:
+    ///   - range: The range, either for columns or rows, to insert empty data into
+    ///   - direction: The direction, either columns or rows, to insert empty data into
+    ///   - updateInternalRepresentation: Whether the write should update ``spreadsheet``. Note that this
+    ///   may increase the time taken for requests to complete.
     public func insertRange(
         _ range: Range<Int>,
         direction: DimensionEnum,
@@ -231,6 +282,12 @@ public class SheetsInterface: ObservableObject {
         )
     }
 
+    /// Batch-sends update requests. Usually used to send multiple requests at the same time, instead of
+    /// individually.
+    /// - Parameters:
+    ///   - requests: The requests to send
+    ///   - updateInternalRepresentation: Whether the write should update ``spreadsheet``. Note that this
+    ///   may increase the time taken for requests to complete.
     public func update(
         requests: [UpdateRequest],
         updateInternalRepresentation: Bool = false
@@ -267,12 +324,17 @@ public protocol SheetsInterfaceChangeDelegate: AnyObject {
     func targetSheetDidChange(interface: SheetsInterface, targetSheet: Sheet?)
 }
 
+/// The content of a cell
 public struct CellContent: Hashable {
+    /// The row of a cell
     public var row: Int
+    /// The column of a cell
     public var col: Int
 
+    /// The string content of a cell
     public var content: String?
 
+    /// Creates a cell content with a row, column, and optionally content
     public init(row: Int, col: Int, content: String? = nil) {
         self.row = row
         self.col = col

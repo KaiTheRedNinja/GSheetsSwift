@@ -1,7 +1,16 @@
 {
   "abstract" : [
     {
-      "text" : "Focuses a sheet within the spreadsheet with a given name",
+      "text" : "Focuses a sheet within the spreadsheet with a given name. This sets the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface\/targetSheet",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " property.",
       "type" : "text"
     }
   ],
@@ -113,6 +122,25 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The name of the sheet to focus",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "name"
+        }
+      ]
     }
   ],
   "schemaVersion" : {
@@ -150,7 +178,14 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface": {
   "abstract" : [
-
+    {
+      "text" : "A simplified interface to a Google Sheet, which implements commonly used APIs in ",
+      "type" : "text"
+    },
+    {
+      "code" : "GSheetsSwiftAPI",
+      "type" : "codeVoice"
+    }
   ],
   "fragments" : [
     {
@@ -182,7 +217,16 @@
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/focusSheet(name:)": {
   "abstract" : [
     {
-      "text" : "Focuses a sheet within the spreadsheet with a given name",
+      "text" : "Focuses a sheet within the spreadsheet with a given name. This sets the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface\/targetSheet",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " property.",
       "type" : "text"
     }
   ],
@@ -227,6 +271,47 @@
   "title" : "focusSheet(name:)",
   "type" : "topic",
   "url" : "\/documentation\/gsheetsswift\/sheetsinterface\/focussheet(name:)"
+},
+"doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/targetSheet": {
+  "abstract" : [
+    {
+      "text" : "The current sheet within the spreadsheet that the interface is performing read\/write operations on",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "targetSheet"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:17GSheetsSwiftTypes5SheetV",
+      "text" : "Sheet"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwift\/documentation\/GSheetsSwift\/SheetsInterface\/targetSheet",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "targetSheet",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswift\/sheetsinterface\/targetsheet"
 }
 }
 }

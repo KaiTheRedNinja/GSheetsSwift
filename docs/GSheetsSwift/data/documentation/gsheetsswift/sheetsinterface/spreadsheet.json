@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The current spreadsheet loaded into the interface",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -157,7 +163,14 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface": {
   "abstract" : [
-
+    {
+      "text" : "A simplified interface to a Google Sheet, which implements commonly used APIs in ",
+      "type" : "text"
+    },
+    {
+      "code" : "GSheetsSwiftAPI",
+      "type" : "codeVoice"
+    }
   ],
   "fragments" : [
     {
@@ -188,7 +201,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/SheetsInterface/spreadsheet": {
   "abstract" : [
-
+    {
+      "text" : "The current spreadsheet loaded into the interface",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

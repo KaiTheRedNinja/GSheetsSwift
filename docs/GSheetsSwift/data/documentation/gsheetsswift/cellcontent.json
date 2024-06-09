@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The content of a cell",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -151,7 +157,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/CellContent": {
   "abstract" : [
-
+    {
+      "text" : "The content of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -193,7 +202,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/CellContent/col": {
   "abstract" : [
-
+    {
+      "text" : "The column of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -227,7 +239,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/CellContent/content": {
   "abstract" : [
-
+    {
+      "text" : "The string content of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -265,7 +280,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/CellContent/init(row:col:content:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates a cell content with a row, column, and optionally content",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -337,7 +355,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/CellContent/row": {
   "abstract" : [
-
+    {
+      "text" : "The row of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

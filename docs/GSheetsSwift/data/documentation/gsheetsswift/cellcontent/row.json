@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The row of a cell",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -120,7 +126,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/CellContent": {
   "abstract" : [
-
+    {
+      "text" : "The content of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -151,7 +160,10 @@
 },
 "doc://GSheetsSwift/documentation/GSheetsSwift/CellContent/row": {
   "abstract" : [
-
+    {
+      "text" : "The row of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
