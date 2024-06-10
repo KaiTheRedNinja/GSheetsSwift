@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Represents a spreadsheet ID, found in the google sheet’s link",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -73,6 +79,26 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "code" : "https:\/\/docs.google.com\/spreadsheets\/d\/[ID IS HERE]\/edit",
+              "type" : "codeVoice"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -134,7 +160,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI": {
   "abstract" : [
-
+    {
+      "text" : "A namespace for the Google Sheets API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -165,7 +194,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets": {
   "abstract" : [
-
+    {
+      "text" : "The API surface for spreadsheet API requests",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -196,7 +228,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets/SpreadsheetIdPathParameters": {
   "abstract" : [
-
+    {
+      "text" : "Represents a spreadsheet ID, found in the google sheet’s link",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -313,7 +348,7 @@
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/StringCodable": {
   "abstract" : [
     {
-      "text" : "Like Codable but to ",
+      "text" : "A Codable-like protocol, where values are encoded into key value pairs of ",
       "type" : "text"
     },
     {

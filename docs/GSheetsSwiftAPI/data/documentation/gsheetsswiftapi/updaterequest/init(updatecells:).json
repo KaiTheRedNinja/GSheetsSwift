@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Creates an update request to update cells",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -129,7 +135,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateCellsRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for updating the cells of a sheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -160,7 +169,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -191,7 +211,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest/init(updateCells:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates an update request to update cells",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -233,7 +233,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI": {
   "abstract" : [
-
+    {
+      "text" : "A namespace for the Google Sheets API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -264,7 +267,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets": {
   "abstract" : [
-
+    {
+      "text" : "The API surface for spreadsheet API requests",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -295,7 +301,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets/UpdatableRequestData": {
   "abstract" : [
-
+    {
+      "text" : "Represents an UPDATE request to edit a sheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -415,7 +424,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

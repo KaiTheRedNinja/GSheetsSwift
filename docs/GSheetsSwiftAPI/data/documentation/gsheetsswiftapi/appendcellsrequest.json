@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Represents the data for appending data to the bottom of a sheet’s populated data",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -70,6 +76,34 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "For example, if a sheet has 1000 rows but only the first 3 rows are populated with data, this will insert",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "the data starting at row 4.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -137,7 +171,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/AppendCellsRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for appending data to the bottom of a sheet’s populated data",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -210,7 +247,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/AppendCellsRequest/init(sheetId:rows:fields:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates an append cells request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

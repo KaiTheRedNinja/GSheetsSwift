@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Creates an append cells request",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -159,6 +165,69 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The ID of the sheet page to add rows to",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "sheetId"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The data of the rows to add",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "rows"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Fields to update. Defaults to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "\"*\"",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ", which updates all fields. Refer to the Google",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "Sheets REST documentation for full details.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "fields"
+        }
+      ]
     }
   ],
   "schemaVersion" : {
@@ -196,7 +265,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/AppendCellsRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for appending data to the bottom of a sheet’s populated data",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -227,7 +299,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/AppendCellsRequest/init(sheetId:rows:fields:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates an append cells request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -94,7 +94,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/VoidStringCodable": {
   "abstract" : [
-
+    {
+      "text" : "An empty struct, used to represent the lack of a query, body, or response data in an API request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

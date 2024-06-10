@@ -1,15 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Inherited from ",
+      "text" : "Provides a HTTP ",
       "type" : "text"
     },
     {
-      "code" : "GSheetsSwiftGettable.get(params:query:data:completion:)",
+      "code" : "GET",
       "type" : "codeVoice"
     },
     {
-      "text" : ".",
+      "text" : " API",
       "type" : "text"
     }
   ],
@@ -409,7 +409,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI": {
   "abstract" : [
-
+    {
+      "text" : "A namespace for the Google Sheets API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -440,7 +443,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets": {
   "abstract" : [
-
+    {
+      "text" : "The API surface for spreadsheet API requests",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -482,7 +488,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets/get(params:query:data:completion:)": {
   "abstract" : [
-
+    {
+      "text" : "Provides a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "GET",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

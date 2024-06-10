@@ -1,4 +1,18 @@
 {
+  "abstract" : [
+    {
+      "text" : "Represents the data for a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " request",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -70,6 +84,83 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Only ",
+              "type" : "text"
+            },
+            {
+              "inlineContent" : [
+                {
+                  "text" : "one",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            },
+            {
+              "text" : " of the following can be populated for any given instance:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "updateCells",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "appendCells",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "insertDimension",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -139,7 +230,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -170,7 +272,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest/init(appendCells:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates an update request ot append cells",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -250,7 +355,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest/init(insertDimension:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates an update request to insert data",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -288,7 +396,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest/init(updateCells:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates an update request to update cells",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

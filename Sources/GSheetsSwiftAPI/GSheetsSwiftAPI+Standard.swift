@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Provides a HTTP `GET` API
 public protocol GSheetsSwiftGettable: GSheetsSwiftAPIProtocol {
     associatedtype GetPathParameters: StringCodable
     associatedtype GetQueryParameters: StringCodable
@@ -21,6 +22,7 @@ public protocol GSheetsSwiftGettable: GSheetsSwiftAPIProtocol {
     )
 }
 
+/// Provides a HTTP `UPDATE` API
 public protocol GSheetsSwiftUpdatable: GSheetsSwiftAPIProtocol {
     associatedtype UpdatePathParameters: StringCodable
     associatedtype UpdateQueryParameters: StringCodable

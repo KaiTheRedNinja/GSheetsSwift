@@ -122,7 +122,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftUpdatable": {
   "abstract" : [
-
+    {
+      "text" : "Provides a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -189,7 +200,7 @@
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/StringCodable": {
   "abstract" : [
     {
-      "text" : "Like Codable but to ",
+      "text" : "A Codable-like protocol, where values are encoded into key value pairs of ",
       "type" : "text"
     },
     {

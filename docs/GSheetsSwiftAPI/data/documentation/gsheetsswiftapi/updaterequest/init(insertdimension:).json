@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Creates an update request to insert data",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -129,7 +135,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/InsertDimensionRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for inserting empty rows or columns",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -160,7 +169,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -191,7 +211,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest/init(insertDimension:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates an update request to insert data",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

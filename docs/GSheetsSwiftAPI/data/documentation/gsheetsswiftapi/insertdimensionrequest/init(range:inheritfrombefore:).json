@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Creates an insert dimensions request",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -125,6 +131,47 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The range of rows or columns to insert",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "range"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "True if the new cells should inherit the formatting of the cells above",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "or left, false if new cells should inherit the formatting of the cells below or right",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "inheritFromBefore"
+        }
+      ]
     }
   ],
   "schemaVersion" : {
@@ -162,7 +209,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/InsertDimensionRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for inserting empty rows or columns",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -193,7 +243,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/InsertDimensionRequest/init(range:inheritFromBefore:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates an insert dimensions request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

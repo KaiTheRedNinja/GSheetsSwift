@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Creates an update cell request",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -193,6 +199,83 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The new row data",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "rows"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Fields to update. Defaults to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "\"*\"",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ", which updates all fields. Refer to the Google",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "Sheets REST documentation for full details.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "fields"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The coordinates where the new row data starts",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "start"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The range to replace data in. Defaults to nil, where it is inferred.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "range"
+        }
+      ]
     }
   ],
   "schemaVersion" : {
@@ -230,7 +313,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateCellsRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for updating the cells of a sheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -261,7 +347,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateCellsRequest/init(rows:fields:start:range:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates an update cell request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

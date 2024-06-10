@@ -1,4 +1,18 @@
 {
+  "abstract" : [
+    {
+      "text" : "Provides a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " API",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -394,7 +408,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftUpdatable": {
   "abstract" : [
-
+    {
+      "text" : "Provides a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -740,7 +765,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftUpdatable/update(params:query:data:completion:)-9mj3i": {
   "abstract" : [
-
+    {
+      "text" : "Provides a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

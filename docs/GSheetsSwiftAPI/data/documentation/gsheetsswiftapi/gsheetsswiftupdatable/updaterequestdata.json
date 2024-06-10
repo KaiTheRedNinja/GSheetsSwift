@@ -139,7 +139,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftUpdatable": {
   "abstract" : [
-
+    {
+      "text" : "Provides a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

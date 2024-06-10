@@ -86,7 +86,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/APISecretManager": {
   "abstract" : [
-
+    {
+      "text" : "Wraps an OAuth access token, used to authenticate API calls.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -117,7 +120,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/AppendCellsRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for appending data to the bottom of a sheet’s populated data",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -148,7 +154,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI": {
   "abstract" : [
-
+    {
+      "text" : "A namespace for the Google Sheets API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -179,7 +188,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPIProtocol": {
   "abstract" : [
-
+    {
+      "text" : "An empty protocol that represents an API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -210,7 +222,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftGettable": {
   "abstract" : [
-
+    {
+      "text" : "Provides a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "GET",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -241,7 +264,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftUpdatable": {
   "abstract" : [
-
+    {
+      "text" : "Provides a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -272,7 +306,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/InsertDimensionRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for inserting empty rows or columns",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -304,7 +341,7 @@
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/StringCodable": {
   "abstract" : [
     {
-      "text" : "Like Codable but to ",
+      "text" : "A Codable-like protocol, where values are encoded into key value pairs of ",
       "type" : "text"
     },
     {
@@ -341,7 +378,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateCellsRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for updating the cells of a sheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -372,7 +412,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -403,7 +454,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/VoidStringCodable": {
   "abstract" : [
-
+    {
+      "text" : "An empty struct, used to represent the lack of a query, body, or response data in an API request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

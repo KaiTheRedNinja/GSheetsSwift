@@ -9,10 +9,24 @@ import Foundation
 import SwiftUI
 import GSheetsSwiftTypes
 
+/// Wraps an OAuth access token, used to authenticate API calls.
+///
+/// To obtain an OAuth access token, see [the Google docs](https://developers.google.com/identity/sign-in/ios/start-integrating)
 public enum APISecretManager {
+    /// The Google OAuth access token.
+    ///
+    /// The access token must have access to at least one of the following scopes, for read-write support:
+    /// - https://www.googleapis.com/auth/drive
+    /// - https://www.googleapis.com/auth/drive.file
+    /// - https://www.googleapis.com/auth/spreadsheets
+    ///
+    /// Or either of these scopes for read-only support:
+    /// - https://www.googleapis.com/auth/drive.readonly
+    /// - https://www.googleapis.com/auth/spreadsheets.readonly
     public static var accessToken: String = ""
 }
 
+/// Facilitates the sending and receiving of a request
 enum APICaller<ResponseData: Decodable> {
     /// Does an API request
     ///
@@ -110,6 +124,7 @@ Failure Data: \(String(data: data, encoding: .utf8) ?? "undecodable")
 }
 
 public extension GSheetsSwiftGettable {
+    /// Provides a HTTP `GET` API
     static func get(
         params: GetPathParameters,
         query: GetQueryParameters,
@@ -127,6 +142,7 @@ public extension GSheetsSwiftGettable {
 }
 
 public extension GSheetsSwiftUpdatable {
+    /// Provides a HTTP `UPDATE` API
     static func update(
         params: UpdatePathParameters,
         query: UpdateQueryParameters,

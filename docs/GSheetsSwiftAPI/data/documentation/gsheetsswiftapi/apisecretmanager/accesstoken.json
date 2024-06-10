@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The Google OAuth access token.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -99,6 +105,110 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The access token must have access to at least one of the following scopes, for read-write support:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "https:\/\/www.googleapis.com\/auth\/drive",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "https:\/\/www.googleapis.com\/auth\/drive.file",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "https:\/\/www.googleapis.com\/auth\/spreadsheets",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Or either of these scopes for read-only support:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "https:\/\/www.googleapis.com\/auth\/drive.readonly",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "https:\/\/www.googleapis.com\/auth\/spreadsheets.readonly",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -136,7 +246,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/APISecretManager": {
   "abstract" : [
-
+    {
+      "text" : "Wraps an OAuth access token, used to authenticate API calls.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -167,7 +280,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/APISecretManager/accessToken": {
   "abstract" : [
-
+    {
+      "text" : "The Google OAuth access token.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -158,7 +158,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateCellsRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for updating the cells of a sheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

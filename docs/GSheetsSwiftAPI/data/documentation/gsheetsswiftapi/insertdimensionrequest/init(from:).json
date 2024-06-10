@@ -158,7 +158,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/InsertDimensionRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for inserting empty rows or columns",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

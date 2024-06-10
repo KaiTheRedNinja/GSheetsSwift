@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Represents the data for inserting empty rows or columns",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -137,7 +143,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/InsertDimensionRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for inserting empty rows or columns",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -210,7 +219,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/InsertDimensionRequest/init(range:inheritFromBefore:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates an insert dimensions request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

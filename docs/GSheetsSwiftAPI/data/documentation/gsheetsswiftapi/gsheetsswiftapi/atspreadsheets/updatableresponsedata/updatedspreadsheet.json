@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The updated spreadsheet instance, if requested",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -130,7 +136,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI": {
   "abstract" : [
-
+    {
+      "text" : "A namespace for the Google Sheets API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -161,7 +170,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets": {
   "abstract" : [
-
+    {
+      "text" : "The API surface for spreadsheet API requests",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -192,7 +204,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets/UpdatableResponseData": {
   "abstract" : [
-
+    {
+      "text" : "Represents the response to an UPDATE request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -223,7 +238,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets/UpdatableResponseData/updatedSpreadsheet": {
   "abstract" : [
-
+    {
+      "text" : "The updated spreadsheet instance, if requested",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

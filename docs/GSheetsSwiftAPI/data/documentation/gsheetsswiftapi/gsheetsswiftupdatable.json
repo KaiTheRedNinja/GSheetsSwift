@@ -1,4 +1,18 @@
 {
+  "abstract" : [
+    {
+      "text" : "Provides a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " API",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -158,7 +172,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets": {
   "abstract" : [
-
+    {
+      "text" : "The API surface for spreadsheet API requests",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -189,7 +206,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPIProtocol": {
   "abstract" : [
-
+    {
+      "text" : "An empty protocol that represents an API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -220,7 +240,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftUpdatable": {
   "abstract" : [
-
+    {
+      "text" : "Provides a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " API",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

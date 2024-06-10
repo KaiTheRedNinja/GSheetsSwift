@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Like Codable but to ",
+      "text" : "A Codable-like protocol, where values are encoded into key value pairs of ",
       "type" : "text"
     },
     {
@@ -80,6 +80,26 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Used for the query parameters of API requests",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -137,7 +157,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets/GettableQueryParameters": {
   "abstract" : [
-
+    {
+      "text" : "Represents a GET query to obtaining a sheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -168,7 +191,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/GSheetsSwiftAPI/ATSpreadsheets/SpreadsheetIdPathParameters": {
   "abstract" : [
-
+    {
+      "text" : "Represents a spreadsheet ID, found in the google sheet’s link",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -200,7 +226,7 @@
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/StringCodable": {
   "abstract" : [
     {
-      "text" : "Like Codable but to ",
+      "text" : "A Codable-like protocol, where values are encoded into key value pairs of ",
       "type" : "text"
     },
     {
@@ -237,7 +263,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/StringCodable/stringDictionaryEncoded()": {
   "abstract" : [
-
+    {
+      "text" : "The String dictionary encoded representation of the value",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -285,7 +314,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/VoidStringCodable": {
   "abstract" : [
-
+    {
+      "text" : "An empty struct, used to represent the lack of a query, body, or response data in an API request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

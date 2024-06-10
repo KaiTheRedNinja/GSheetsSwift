@@ -158,7 +158,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/AppendCellsRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for appending data to the bottom of a sheet’s populated data",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

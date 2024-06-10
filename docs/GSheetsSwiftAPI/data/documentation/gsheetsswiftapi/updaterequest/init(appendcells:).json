@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Creates an update request ot append cells",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -129,7 +135,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/AppendCellsRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for appending data to the bottom of a sheet’s populated data",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -160,7 +169,18 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data for a HTTP ",
+      "type" : "text"
+    },
+    {
+      "code" : "UPDATE",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " request",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -191,7 +211,10 @@
 },
 "doc://GSheetsSwiftAPI/documentation/GSheetsSwiftAPI/UpdateRequest/init(appendCells:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates an update request ot append cells",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
