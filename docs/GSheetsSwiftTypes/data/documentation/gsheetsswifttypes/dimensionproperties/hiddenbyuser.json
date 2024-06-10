@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Whether the region is hidden by the user",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -128,7 +134,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionProperties": {
   "abstract" : [
-
+    {
+      "text" : "Represents the properties of a region",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -159,7 +168,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionProperties/hiddenByUser": {
   "abstract" : [
-
+    {
+      "text" : "Whether the region is hidden by the user",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

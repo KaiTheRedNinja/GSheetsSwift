@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The range of a dimension",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -146,7 +152,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange": {
   "abstract" : [
-
+    {
+      "text" : "The range of a dimension",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -177,7 +186,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange/dimension": {
   "abstract" : [
-
+    {
+      "text" : "The direction that the dimension is facing",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -211,7 +223,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange/endIndex": {
   "abstract" : [
-
+    {
+      "text" : "The end column or row",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -287,7 +302,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange/init(sheetId:dimension:startIndex:endIndex:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates a dimension range",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -376,7 +394,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange/sheetId": {
   "abstract" : [
-
+    {
+      "text" : "The id of the sheet page it belongs to",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -410,7 +431,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange/startIndex": {
   "abstract" : [
-
+    {
+      "text" : "The start column or row",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

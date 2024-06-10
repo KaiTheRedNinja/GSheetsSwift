@@ -81,7 +81,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionEnum": {
   "abstract" : [
-
+    {
+      "text" : "The direction that a dimension is facing",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

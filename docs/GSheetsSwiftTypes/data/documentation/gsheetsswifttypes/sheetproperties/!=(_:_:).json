@@ -209,9 +209,56 @@
   "type" : "topic",
   "url" : "\/documentation\/gsheetsswifttypes"
 },
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Sheet": {
+  "abstract" : [
+    {
+      "text" : "Represents a sheet page within a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Spreadsheet",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Sheet"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Sheet",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Sheet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Sheet",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/sheet"
+},
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/SheetProperties": {
   "abstract" : [
-
+    {
+      "text" : "The properties of a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Sheet",
+      "isActive" : true,
+      "type" : "reference"
+    }
   ],
   "fragments" : [
     {

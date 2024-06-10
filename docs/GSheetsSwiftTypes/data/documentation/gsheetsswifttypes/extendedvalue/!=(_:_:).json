@@ -211,7 +211,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue": {
   "abstract" : [
-
+    {
+      "text" : "A value that a cell can contain",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

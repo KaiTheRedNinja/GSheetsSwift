@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The sheets within the spreadsheet",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -129,7 +135,15 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Sheet": {
   "abstract" : [
-
+    {
+      "text" : "Represents a sheet page within a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Spreadsheet",
+      "isActive" : true,
+      "type" : "reference"
+    }
   ],
   "fragments" : [
     {
@@ -160,7 +174,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Spreadsheet": {
   "abstract" : [
-
+    {
+      "text" : "Represents a Google Spreadsheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -191,7 +208,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Spreadsheet/sheets": {
   "abstract" : [
-
+    {
+      "text" : "The sheets within the spreadsheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

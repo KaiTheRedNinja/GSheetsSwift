@@ -211,7 +211,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorValue": {
   "abstract" : [
-
+    {
+      "text" : "Errors that can occur in a cell due to a formula, with detailed messages",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

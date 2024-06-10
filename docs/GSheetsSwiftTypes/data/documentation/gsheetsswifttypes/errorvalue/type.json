@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The type of error",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -121,7 +127,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType": {
   "abstract" : [
-
+    {
+      "text" : "Errors that can occur in a cell due to a formula",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -152,7 +161,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorValue": {
   "abstract" : [
-
+    {
+      "text" : "Errors that can occur in a cell due to a formula, with detailed messages",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -183,7 +195,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorValue/type": {
   "abstract" : [
-
+    {
+      "text" : "The type of error",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

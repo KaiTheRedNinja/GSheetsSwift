@@ -158,7 +158,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridRange": {
   "abstract" : [
-
+    {
+      "text" : "A range that a grid can occupy",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

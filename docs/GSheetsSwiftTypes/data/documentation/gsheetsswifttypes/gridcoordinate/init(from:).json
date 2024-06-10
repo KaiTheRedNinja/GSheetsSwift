@@ -158,7 +158,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridCoordinate": {
   "abstract" : [
-
+    {
+      "text" : "Represents the coordinate of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

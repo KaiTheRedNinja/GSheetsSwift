@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Creates a dimension range",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -194,6 +200,67 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The id of the sheet page it belongs to",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "sheetId"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The direction that the dimension is facing",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "dimension"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The start column or row",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "startIndex"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The end column or row",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "endIndex"
+        }
+      ]
     }
   ],
   "schemaVersion" : {
@@ -231,7 +298,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionEnum": {
   "abstract" : [
-
+    {
+      "text" : "The direction that a dimension is facing",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -262,7 +332,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange": {
   "abstract" : [
-
+    {
+      "text" : "The range of a dimension",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -293,7 +366,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange/init(sheetId:dimension:startIndex:endIndex:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates a dimension range",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -7,15 +7,19 @@
 
 import Foundation
 
+/// Represents data within a grid
 public struct GridData: Codable, Equatable {
     public static func == (lhs: GridData, rhs: GridData) -> Bool {
         return lhs.rowData == rhs.rowData && lhs.startColumn == rhs.startColumn && lhs.startRow == rhs.startRow
     }
     
-    
+    /// The row that the grid starts
     public var startRow: Int?
+    /// The column that the grid starts
     public var startColumn: Int?
+    /// The data within the row
     public var rowData: [RowData]
+
 //    public var rowMetadata: [DimensionProperties]
 //    public var columnMetadata: [DimensionProperties]
 

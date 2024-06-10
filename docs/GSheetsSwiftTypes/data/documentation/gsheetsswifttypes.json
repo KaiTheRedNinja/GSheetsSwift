@@ -89,7 +89,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/CellData": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data within a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -120,7 +123,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DataSourceColumnReference": {
   "abstract" : [
-
+    {
+      "text" : "Represents the name of a named cell region",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -275,7 +281,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionEnum": {
   "abstract" : [
-
+    {
+      "text" : "The direction that a dimension is facing",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -306,7 +315,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionProperties": {
   "abstract" : [
-
+    {
+      "text" : "Represents the properties of a region",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -337,7 +349,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange": {
   "abstract" : [
-
+    {
+      "text" : "The range of a dimension",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -368,7 +383,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType": {
   "abstract" : [
-
+    {
+      "text" : "Errors that can occur in a cell due to a formula",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -399,7 +417,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorValue": {
   "abstract" : [
-
+    {
+      "text" : "Errors that can occur in a cell due to a formula, with detailed messages",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -430,7 +451,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue": {
   "abstract" : [
-
+    {
+      "text" : "A value that a cell can contain",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -461,7 +485,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridCoordinate": {
   "abstract" : [
-
+    {
+      "text" : "Represents the coordinate of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -492,7 +519,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridData": {
   "abstract" : [
-
+    {
+      "text" : "Represents data within a grid",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -523,7 +553,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridRange": {
   "abstract" : [
-
+    {
+      "text" : "A range that a grid can occupy",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -554,7 +587,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/RowData": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data of a row",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -585,7 +621,15 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Sheet": {
   "abstract" : [
-
+    {
+      "text" : "Represents a sheet page within a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Spreadsheet",
+      "isActive" : true,
+      "type" : "reference"
+    }
   ],
   "fragments" : [
     {
@@ -616,7 +660,15 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/SheetProperties": {
   "abstract" : [
-
+    {
+      "text" : "The properties of a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Sheet",
+      "isActive" : true,
+      "type" : "reference"
+    }
   ],
   "fragments" : [
     {
@@ -647,7 +699,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Spreadsheet": {
   "abstract" : [
-
+    {
+      "text" : "Represents a Google Spreadsheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The end column or row",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -120,7 +126,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange": {
   "abstract" : [
-
+    {
+      "text" : "The range of a dimension",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -151,7 +160,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange/endIndex": {
   "abstract" : [
-
+    {
+      "text" : "The end column or row",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

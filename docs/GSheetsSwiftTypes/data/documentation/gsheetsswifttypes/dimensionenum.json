@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The direction that a dimension is facing",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -170,7 +176,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionEnum": {
   "abstract" : [
-
+    {
+      "text" : "The direction that a dimension is facing",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -223,7 +232,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionEnum/columns": {
   "abstract" : [
-
+    {
+      "text" : "The dimension is referring to columns",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -248,7 +260,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionEnum/dimension_unspecified": {
   "abstract" : [
-
+    {
+      "text" : "The dimension is unspecified",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -311,7 +326,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionEnum/rows": {
   "abstract" : [
-
+    {
+      "text" : "The dimension is referring to rows",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

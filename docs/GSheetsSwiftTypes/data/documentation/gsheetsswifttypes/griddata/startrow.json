@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The row that the grid starts",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -128,7 +134,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridData": {
   "abstract" : [
-
+    {
+      "text" : "Represents data within a grid",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -159,7 +168,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridData/startRow": {
   "abstract" : [
-
+    {
+      "text" : "The row that the grid starts",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

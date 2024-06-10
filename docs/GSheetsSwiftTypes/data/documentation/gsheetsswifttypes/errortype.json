@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Errors that can occur in a cell due to a formula",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -177,7 +183,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType": {
   "abstract" : [
-
+    {
+      "text" : "Errors that can occur in a cell due to a formula",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -230,7 +239,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType/divider_by_zero": {
   "abstract" : [
-
+    {
+      "text" : "Zero division",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -255,7 +267,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType/error": {
   "abstract" : [
-
+    {
+      "text" : "General error",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -280,7 +295,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType/error_type_unspecified": {
   "abstract" : [
-
+    {
+      "text" : "Unspecified error",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -343,7 +361,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType/loadin": {
   "abstract" : [
-
+    {
+      "text" : "Cell is loading",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -368,7 +389,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType/n_a": {
   "abstract" : [
-
+    {
+      "text" : "Not available",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -393,7 +417,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType/name": {
   "abstract" : [
-
+    {
+      "text" : "Broken name",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -418,7 +445,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType/null_value": {
   "abstract" : [
-
+    {
+      "text" : "NULL value",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -443,7 +473,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType/num": {
   "abstract" : [
-
+    {
+      "text" : "Broken number",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -468,7 +501,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType/ref": {
   "abstract" : [
-
+    {
+      "text" : "Broken reference",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -493,7 +529,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ErrorType/value": {
   "abstract" : [
-
+    {
+      "text" : "Incompatible value",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

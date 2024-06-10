@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Represents the name of a named cell region
 public struct DataSourceColumnReference: Codable {
     public var name: String
 }

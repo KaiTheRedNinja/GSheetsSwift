@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The index of the starting column",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -120,7 +126,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridRange": {
   "abstract" : [
-
+    {
+      "text" : "A range that a grid can occupy",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -151,7 +160,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridRange/startColumnIndex": {
   "abstract" : [
-
+    {
+      "text" : "The index of the starting column",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "A range that a grid can occupy",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -147,7 +153,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridRange": {
   "abstract" : [
-
+    {
+      "text" : "A range that a grid can occupy",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -178,7 +187,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridRange/endColumnIndex": {
   "abstract" : [
-
+    {
+      "text" : "The index of the ending column",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -212,7 +224,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridRange/endRowIndex": {
   "abstract" : [
-
+    {
+      "text" : "The index of the ending row",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -288,7 +303,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridRange/init(sheetId:startRowIndex:endRowIndex:startColumnIndex:endColumnIndex:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates a grid range",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -394,7 +412,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridRange/sheetId": {
   "abstract" : [
-
+    {
+      "text" : "The ID of the sheet page",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -428,7 +449,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridRange/startColumnIndex": {
   "abstract" : [
-
+    {
+      "text" : "The index of the starting column",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -462,7 +486,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridRange/startRowIndex": {
   "abstract" : [
-
+    {
+      "text" : "The index of the starting row",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

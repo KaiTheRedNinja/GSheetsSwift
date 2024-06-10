@@ -1,4 +1,15 @@
 {
+  "abstract" : [
+    {
+      "text" : "Represents a sheet page within a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Spreadsheet",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -168,7 +179,15 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Sheet": {
   "abstract" : [
-
+    {
+      "text" : "Represents a sheet page within a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Spreadsheet",
+      "isActive" : true,
+      "type" : "reference"
+    }
   ],
   "fragments" : [
     {
@@ -274,7 +293,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Sheet/data": {
   "abstract" : [
-
+    {
+      "text" : "The grid data within the sheet.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -404,7 +426,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Sheet/properties": {
   "abstract" : [
-
+    {
+      "text" : "The properties of the sheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -435,6 +460,40 @@
   "title" : "properties",
   "type" : "topic",
   "url" : "\/documentation\/gsheetsswifttypes\/sheet\/properties"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Spreadsheet": {
+  "abstract" : [
+    {
+      "text" : "Represents a Google Spreadsheet",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Spreadsheet"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Spreadsheet",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Spreadsheet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Spreadsheet",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/spreadsheet"
 }
 }
 }

@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The row of the cell",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -120,7 +126,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridCoordinate": {
   "abstract" : [
-
+    {
+      "text" : "Represents the coordinate of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -151,7 +160,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridCoordinate/rowIndex": {
   "abstract" : [
-
+    {
+      "text" : "The row of the cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

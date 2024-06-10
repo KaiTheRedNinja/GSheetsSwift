@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The data within the cells in the row",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -129,7 +135,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/CellData": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data within a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -160,7 +169,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/RowData": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data of a row",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -191,7 +203,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/RowData/values": {
   "abstract" : [
-
+    {
+      "text" : "The data within the cells in the row",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

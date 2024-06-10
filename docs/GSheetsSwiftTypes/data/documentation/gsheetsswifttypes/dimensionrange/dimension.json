@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The direction that the dimension is facing",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -121,7 +127,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionEnum": {
   "abstract" : [
-
+    {
+      "text" : "The direction that a dimension is facing",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -152,7 +161,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange": {
   "abstract" : [
-
+    {
+      "text" : "The range of a dimension",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -183,7 +195,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionRange/dimension": {
   "abstract" : [
-
+    {
+      "text" : "The direction that the dimension is facing",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

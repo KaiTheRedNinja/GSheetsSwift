@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Creates a cell data instance",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -161,6 +167,53 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The user entered value, which the user can edit",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "userEnteredValue"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The effective value, which the cell displays. For example, the result of a formula.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "effectiveValue"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The value as a string",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "formattedValue"
+        }
+      ]
     }
   ],
   "schemaVersion" : {
@@ -198,7 +251,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/CellData": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data within a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -229,7 +285,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/CellData/init(userEnteredValue:effectiveValue:formattedValue:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates a cell data instance",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -301,7 +360,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue": {
   "abstract" : [
-
+    {
+      "text" : "A value that a cell can contain",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The grid data within the sheet.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -92,6 +98,34 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "For a continuous sheet, where there are no empty rows between populated rows,",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "there will only be one item in this array.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -129,7 +163,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridData": {
   "abstract" : [
-
+    {
+      "text" : "Represents data within a grid",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -160,7 +197,15 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Sheet": {
   "abstract" : [
-
+    {
+      "text" : "Represents a sheet page within a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Spreadsheet",
+      "isActive" : true,
+      "type" : "reference"
+    }
   ],
   "fragments" : [
     {
@@ -191,7 +236,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Sheet/data": {
   "abstract" : [
-
+    {
+      "text" : "The grid data within the sheet.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -226,6 +274,40 @@
   "title" : "data",
   "type" : "topic",
   "url" : "\/documentation\/gsheetsswifttypes\/sheet\/data"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Spreadsheet": {
+  "abstract" : [
+    {
+      "text" : "Represents a Google Spreadsheet",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Spreadsheet"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Spreadsheet",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Spreadsheet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Spreadsheet",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/spreadsheet"
 }
 }
 }

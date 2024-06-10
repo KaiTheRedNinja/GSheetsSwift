@@ -7,7 +7,10 @@
 
 import Foundation
 
+/// Represents a Google Spreadsheet
 public struct Spreadsheet: Codable {
+    /// The ID of the spreadsheet
     public var spreadsheetId: String
+    /// The sheets within the spreadsheet
     public var sheets: [Sheet]
 }

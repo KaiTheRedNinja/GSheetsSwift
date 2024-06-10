@@ -7,12 +7,18 @@
 
 import Foundation
 
+/// Represents a sheet page within a ``Spreadsheet``
 public struct Sheet: Codable, Equatable {
     public static func == (lhs: Sheet, rhs: Sheet) -> Bool {
         return lhs.data == rhs.data && lhs.properties == rhs.properties
     }
     
+    /// The properties of the sheet
     public var properties: SheetProperties
+    /// The grid data within the sheet.
+    ///
+    /// For a continuous sheet, where there are no empty rows between populated rows,
+    /// there will only be one item in this array.
     public var data: [GridData]
 
     enum Keys: CodingKey {

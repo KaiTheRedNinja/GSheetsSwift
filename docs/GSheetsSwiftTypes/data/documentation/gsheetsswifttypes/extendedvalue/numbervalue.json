@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The number value, if any",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -128,7 +134,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue": {
   "abstract" : [
-
+    {
+      "text" : "A value that a cell can contain",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -159,7 +168,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/numberValue": {
   "abstract" : [
-
+    {
+      "text" : "The number value, if any",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

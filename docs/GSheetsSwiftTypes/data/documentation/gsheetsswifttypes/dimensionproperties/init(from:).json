@@ -158,7 +158,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DimensionProperties": {
   "abstract" : [
-
+    {
+      "text" : "Represents the properties of a region",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

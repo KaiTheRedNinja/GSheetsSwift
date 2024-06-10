@@ -158,7 +158,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/DataSourceColumnReference": {
   "abstract" : [
-
+    {
+      "text" : "Represents the name of a named cell region",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

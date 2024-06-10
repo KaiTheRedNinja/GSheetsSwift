@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Creates a grid coordinate",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -159,6 +165,53 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The id of the sheet page that the cell belongs to",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "sheetId"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The row of the cell",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "rowIndex"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The column of the cell",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "columnIndex"
+        }
+      ]
     }
   ],
   "schemaVersion" : {
@@ -196,7 +249,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridCoordinate": {
   "abstract" : [
-
+    {
+      "text" : "Represents the coordinate of a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -227,7 +283,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridCoordinate/init(sheetId:rowIndex:columnIndex:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates a grid coordinate",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

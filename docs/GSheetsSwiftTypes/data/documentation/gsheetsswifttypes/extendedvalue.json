@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "A value that a cell can contain",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -70,6 +76,96 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Out of the following properties, only one should be populated:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "numberValue",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "stringValue",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "boolValue",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "formulaValue",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "code" : "errorValue",
+                      "type" : "codeVoice"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -166,7 +262,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue": {
   "abstract" : [
-
+    {
+      "text" : "A value that a cell can contain",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -272,7 +371,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/boolValue": {
   "abstract" : [
-
+    {
+      "text" : "The bool value, if any",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -310,7 +412,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/errorValue": {
   "abstract" : [
-
+    {
+      "text" : "The error value, if any",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -348,7 +453,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/formulaValue": {
   "abstract" : [
-
+    {
+      "text" : "The formula value, if any",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -428,7 +536,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/init(numberValue:stringValue:boolValue:formulaValue:errorValue:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates an extended value. You should specify EXACTLY ONE of these attributes.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -534,7 +645,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/numberValue": {
   "abstract" : [
-
+    {
+      "text" : "The number value, if any",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -572,7 +686,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue/stringValue": {
   "abstract" : [
-
+    {
+      "text" : "The string value, if any",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -158,7 +158,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Spreadsheet": {
   "abstract" : [
-
+    {
+      "text" : "Represents a Google Spreadsheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

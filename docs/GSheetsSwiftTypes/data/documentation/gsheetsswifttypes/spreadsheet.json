@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Represents a Google Spreadsheet",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -143,7 +149,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Spreadsheet": {
   "abstract" : [
-
+    {
+      "text" : "Represents a Google Spreadsheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -216,7 +225,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Spreadsheet/sheets": {
   "abstract" : [
-
+    {
+      "text" : "The sheets within the spreadsheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -254,7 +266,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Spreadsheet/spreadsheetId": {
   "abstract" : [
-
+    {
+      "text" : "The ID of the spreadsheet",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

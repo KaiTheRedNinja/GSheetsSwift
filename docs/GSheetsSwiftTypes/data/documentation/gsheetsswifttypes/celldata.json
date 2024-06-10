@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Represents the data within a cell",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -164,7 +170,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/CellData": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data within a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -270,7 +279,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/CellData/effectiveValue": {
   "abstract" : [
-
+    {
+      "text" : "The effective value, which the cell displays. For example, the result of a formula.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -308,7 +320,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/CellData/formattedValue": {
   "abstract" : [
-
+    {
+      "text" : "The value as a string",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -388,7 +403,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/CellData/init(userEnteredValue:effectiveValue:formattedValue:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates a cell data instance",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -460,7 +478,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/CellData/userEnteredValue": {
   "abstract" : [
-
+    {
+      "text" : "The user entered value, which the user can edit",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

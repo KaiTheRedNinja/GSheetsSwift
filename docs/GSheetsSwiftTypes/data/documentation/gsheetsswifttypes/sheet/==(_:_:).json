@@ -212,7 +212,15 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Sheet": {
   "abstract" : [
-
+    {
+      "text" : "Represents a sheet page within a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Spreadsheet",
+      "isActive" : true,
+      "type" : "reference"
+    }
   ],
   "fragments" : [
     {
@@ -304,6 +312,40 @@
   "title" : "==(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/gsheetsswifttypes\/sheet\/==(_:_:)"
+},
+"doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/Spreadsheet": {
+  "abstract" : [
+    {
+      "text" : "Represents a Google Spreadsheet",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Spreadsheet"
+    }
+  ],
+  "identifier" : "doc:\/\/GSheetsSwiftTypes\/documentation\/GSheetsSwiftTypes\/Spreadsheet",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Spreadsheet"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Spreadsheet",
+  "type" : "topic",
+  "url" : "\/documentation\/gsheetsswifttypes\/spreadsheet"
 }
 }
 }

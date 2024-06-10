@@ -212,7 +212,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/RowData": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data of a row",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

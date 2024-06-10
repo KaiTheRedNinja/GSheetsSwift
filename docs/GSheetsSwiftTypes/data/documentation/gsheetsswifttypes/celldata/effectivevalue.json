@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The effective value, which the cell displays. For example, the result of a formula.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -129,7 +135,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/CellData": {
   "abstract" : [
-
+    {
+      "text" : "Represents the data within a cell",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -160,7 +169,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/CellData/effectiveValue": {
   "abstract" : [
-
+    {
+      "text" : "The effective value, which the cell displays. For example, the result of a formula.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -198,7 +210,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/ExtendedValue": {
   "abstract" : [
-
+    {
+      "text" : "A value that a cell can contain",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -158,7 +158,10 @@
 },
 "doc://GSheetsSwiftTypes/documentation/GSheetsSwiftTypes/GridData": {
   "abstract" : [
-
+    {
+      "text" : "Represents data within a grid",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
