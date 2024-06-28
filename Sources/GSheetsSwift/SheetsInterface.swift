@@ -213,7 +213,8 @@ public class SheetsInterface: ObservableObject {
         contents: String,
         row: Int,
         col: Int,
-        updateInternalRepresentation: Bool = false
+        updateInternalRepresentation: Bool = false,
+        completion: ((Result<GSheetsSwiftAPI.ATSpreadsheets.UpdateResponseData, Error>) -> Void)? = nil
     ) {
         guard let targetSheet else { return }
 
@@ -227,7 +228,8 @@ public class SheetsInterface: ObservableObject {
 
         update(
             requests: [.init(updateCells: updateCellsRequest)],
-            updateInternalRepresentation: updateInternalRepresentation
+            updateInternalRepresentation: updateInternalRepresentation,
+            completion: completion
         )
     }
 
@@ -238,7 +240,8 @@ public class SheetsInterface: ObservableObject {
     ///   may increase the time taken for requests to complete.
     public func appendRow(
         _ rows: [RowData],
-        updateInternalRepresentation: Bool = false
+        updateInternalRepresentation: Bool = false,
+        completion: ((Result<GSheetsSwiftAPI.ATSpreadsheets.UpdateResponseData, Error>) -> Void)? = nil
     ) {
         guard let targetSheet else { return }
 
@@ -252,7 +255,8 @@ public class SheetsInterface: ObservableObject {
 
         update(
             requests: [.init(appendCells: appendCellsRequest)],
-            updateInternalRepresentation: updateInternalRepresentation
+            updateInternalRepresentation: updateInternalRepresentation,
+            completion: completion
         )
     }
 
@@ -265,7 +269,8 @@ public class SheetsInterface: ObservableObject {
     public func insertRange(
         _ range: Range<Int>,
         direction: DimensionEnum,
-        updateInternalRepresentation: Bool = false
+        updateInternalRepresentation: Bool = false,
+        completion: ((Result<GSheetsSwiftAPI.ATSpreadsheets.UpdateResponseData, Error>) -> Void)? = nil
     ) {
         guard let targetSheet else { return }
 
@@ -278,7 +283,8 @@ public class SheetsInterface: ObservableObject {
 
         update(
             requests: [.init(insertDimension: insertDimensionsRequest)],
-            updateInternalRepresentation: updateInternalRepresentation
+            updateInternalRepresentation: updateInternalRepresentation,
+            completion: completion
         )
     }
 
@@ -290,7 +296,8 @@ public class SheetsInterface: ObservableObject {
     ///   may increase the time taken for requests to complete.
     public func update(
         requests: [UpdateRequest],
-        updateInternalRepresentation: Bool = false
+        updateInternalRepresentation: Bool = false,
+        completion: ((Result<GSheetsSwiftAPI.ATSpreadsheets.UpdateResponseData, Error>) -> Void)? = nil
     ) {
         guard let spreadsheetId = spreadsheet?.spreadsheetId else { return }
 
@@ -305,13 +312,13 @@ public class SheetsInterface: ObservableObject {
         ) { result in
             switch result {
             case .success(let response):
-                print("Success!")
                 if let updatedSpreadsheet = response.updatedSpreadsheet {
                     self.spreadsheet = updatedSpreadsheet
                 }
             case .failure(_):
                 print("Failure :(")
             }
+            completion?(result)
         }
     }
 }
