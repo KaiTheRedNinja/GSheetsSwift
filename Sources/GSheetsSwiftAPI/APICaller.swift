@@ -97,27 +97,31 @@ enum APICaller<ResponseData: Decodable> {
         }
 
         let session = URLSession.shared
-        let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
-            if let data {
-                do {
-                    if ResponseData.self == VoidStringCodable.self,
-                       let decodedString = String(data: data, encoding: .utf8),
-                       decodedString != "{}" {
-                        print("Expected \"{}\", recieved \"\(decodedString)\"")
-                    }
-                    let result = try JSONDecoder().decode(ResponseData.self, from: data)
-                    callback(.success(result))
-                } catch {
-                    print("""
-Decoding error: \(error)
-Failure Data: \(String(data: data, encoding: .utf8) ?? "undecodable")
-""")
-                    callback(.failure(error))
-                }
-            } else if let error {
+        let task = session.dataTask(with: request) { data, response, error -> Void in
+            // the url request failed
+            if let error {
+                callback(.failure(error))
+                return
+            }
+
+            // we received no data
+            guard let data else {
+                callback(.failure(GSheetError.init(error: .init())))
+                return
+            }
+
+            // gsheets api returned a failure
+            if let error = try? JSONDecoder().decode(GSheetError.self, from: data) {
                 callback(.failure(error))
             }
-        })
+
+            // we succeeded
+            if let result = try? JSONDecoder().decode(ResponseData.self, from: data) {
+                callback(.success(result))
+            }
+
+            callback(.failure(GSheetError.init(error: .init())))
+        }
 
         task.resume()
     }
@@ -157,4 +161,14 @@ public extension GSheetsSwiftUpdatable {
                           responseType: UpdateResponseData.self,
                           callback: completion)
     }
+}
+
+public struct GSheetError: Error, Codable {
+    public var error: GSheetErrorDetails
+}
+
+public struct GSheetErrorDetails: Codable {
+    public var code: Int?
+    public var message: String?
+    public var status: String?
 }
