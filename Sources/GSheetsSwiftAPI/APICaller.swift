@@ -113,11 +113,13 @@ enum APICaller<ResponseData: Decodable> {
             // gsheets api returned a failure
             if let error = try? JSONDecoder().decode(GSheetError.self, from: data) {
                 callback(.failure(error))
+                return
             }
 
             // we succeeded
             if let result = try? JSONDecoder().decode(ResponseData.self, from: data) {
                 callback(.success(result))
+                return
             }
 
             callback(.failure(GSheetError.init(error: .init())))
