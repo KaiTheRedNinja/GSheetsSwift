@@ -5,6 +5,8 @@ import Foundation
 import GSheetsSwiftAPI
 import GSheetsSwiftTypes
 
+public typealias GSheetResponseCallback = (Result<GSheetsSwiftAPI.ATSpreadsheets.UpdateResponseData, Error>) -> Void
+
 /// A simplified interface to a Google Sheet, which implements commonly used APIs in `GSheetsSwiftAPI`
 ///
 /// This interface is the recommended way to interface with Google Sheets via GSheetsSwift, unless you need
@@ -30,6 +32,13 @@ public class SheetsInterface: ObservableObject {
     ///
     /// Note that this does not detect changes made by *other* editors of the google sheet, only *this* `SheetsInterface`
     public weak var changeDelegate: SheetsInterfaceChangeDelegate?
+
+    /// A list of of update requests, which are batched together and sent every ``updateRequestPeriod`` seconds
+    public private(set) var updateRequests: [([UpdateRequest], GSheetResponseCallback?)] = []
+
+    /// The time interval where update requests will be batched together. For example, if set to 3 (default), update commands
+    /// will be sent at most once every three seconds, with all the edits batched together as one write operation
+    public var updateRequestPeriod: TimeInterval = 3.0
 
     /// Creates an empty `SheetsInterface`
     public init() {}
@@ -209,12 +218,16 @@ public class SheetsInterface: ObservableObject {
     ///   - col: The column of the cell to write to
     ///   - updateInternalRepresentation: Whether the write should update ``spreadsheet``. Note that this
     ///   may increase the time taken for requests to complete.
+    ///   - batch: Whether or not this call will be batched together with other calls. This may result in an up to ``updateRequestPeriod``
+    ///   second delay in request timing. Defaults to false.
+    ///   - completion: A closure to call when the operation succeeds
     public func writeCell(
         contents: String,
         row: Int,
         col: Int,
         updateInternalRepresentation: Bool = false,
-        completion: ((Result<GSheetsSwiftAPI.ATSpreadsheets.UpdateResponseData, Error>) -> Void)? = nil
+        batch: Bool = false,
+        completion: (GSheetResponseCallback)? = nil
     ) {
         guard let targetSheet else { return }
 
@@ -229,6 +242,7 @@ public class SheetsInterface: ObservableObject {
         update(
             requests: [.init(updateCells: updateCellsRequest)],
             updateInternalRepresentation: updateInternalRepresentation,
+            batch: batch,
             completion: completion
         )
     }
@@ -238,10 +252,14 @@ public class SheetsInterface: ObservableObject {
     ///   - rows: An array of rows, top to bottom, to append to the bottom of the data
     ///   - updateInternalRepresentation: Whether the write should update ``spreadsheet``. Note that this
     ///   may increase the time taken for requests to complete.
+    ///   - batch: Whether or not this call will be batched together with other calls. This may result in an up to ``updateRequestPeriod``
+    ///   second delay in request timing. Defaults to false.
+    ///   - completion: A closure to call when the operation succeeds
     public func appendRow(
         _ rows: [RowData],
         updateInternalRepresentation: Bool = false,
-        completion: ((Result<GSheetsSwiftAPI.ATSpreadsheets.UpdateResponseData, Error>) -> Void)? = nil
+        batch: Bool = false,
+        completion: (GSheetResponseCallback)? = nil
     ) {
         guard let targetSheet else { return }
 
@@ -256,6 +274,7 @@ public class SheetsInterface: ObservableObject {
         update(
             requests: [.init(appendCells: appendCellsRequest)],
             updateInternalRepresentation: updateInternalRepresentation,
+            batch: batch,
             completion: completion
         )
     }
@@ -266,11 +285,15 @@ public class SheetsInterface: ObservableObject {
     ///   - direction: The direction, either columns or rows, to insert empty data into
     ///   - updateInternalRepresentation: Whether the write should update ``spreadsheet``. Note that this
     ///   may increase the time taken for requests to complete.
+    ///   - batch: Whether or not this call will be batched together with other calls. This may result in an up to ``updateRequestPeriod``
+    ///   second delay in request timing. Defaults to false.
+    ///   - completion: A closure to call when the operation succeeds
     public func insertRange(
         _ range: Range<Int>,
         direction: DimensionEnum,
         updateInternalRepresentation: Bool = false,
-        completion: ((Result<GSheetsSwiftAPI.ATSpreadsheets.UpdateResponseData, Error>) -> Void)? = nil
+        batch: Bool = false,
+        completion: (GSheetResponseCallback)? = nil
     ) {
         guard let targetSheet else { return }
 
@@ -284,6 +307,7 @@ public class SheetsInterface: ObservableObject {
         update(
             requests: [.init(insertDimension: insertDimensionsRequest)],
             updateInternalRepresentation: updateInternalRepresentation,
+            batch: batch,
             completion: completion
         )
     }
@@ -294,31 +318,73 @@ public class SheetsInterface: ObservableObject {
     ///   - requests: The requests to send
     ///   - updateInternalRepresentation: Whether the write should update ``spreadsheet``. Note that this
     ///   may increase the time taken for requests to complete.
+    ///   - batch: Whether or not this call will be batched together with other calls. This may result in an up to ``updateRequestPeriod``
+    ///   second delay in request timing. Defaults to false.
+    ///   - completion: A closure to call when the operation succeeds
     public func update(
         requests: [UpdateRequest],
         updateInternalRepresentation: Bool = false,
-        completion: ((Result<GSheetsSwiftAPI.ATSpreadsheets.UpdateResponseData, Error>) -> Void)? = nil
+        batch: Bool = false,
+        completion: (GSheetResponseCallback)? = nil
     ) {
         guard let spreadsheetId = spreadsheet?.spreadsheetId else { return }
 
-        GSheetsSwiftAPI.ATSpreadsheets.update(
-            params: .init(spreadsheetId: spreadsheetId),
-            query: .init(),
-            data: .init(
-                requests: requests,
-                includeSpreadsheetInResponse: updateInternalRepresentation,
-                responseRanges: [],
-                responseIncludeGridData: false)
-        ) { result in
-            switch result {
-            case .success(let response):
-                if let updatedSpreadsheet = response.updatedSpreadsheet {
-                    self.spreadsheet = updatedSpreadsheet
+        if batch {
+            let isFirst = updateRequests.isEmpty
+            updateRequests.append((requests, completion))
+
+            guard isFirst else { return }
+
+            DispatchQueue.main.asyncAfter(deadline: .now() + updateRequestPeriod) { [weak self] in
+                guard let self else { return }
+
+                GSheetsSwiftAPI.ATSpreadsheets.update(
+                    params: .init(spreadsheetId: spreadsheetId),
+                    query: .init(),
+                    data: .init(
+                        requests: updateRequests.flatMap { $0.0 },
+                        includeSpreadsheetInResponse: updateInternalRepresentation,
+                        responseRanges: [],
+                        responseIncludeGridData: false)
+                ) { [weak self] result in
+                    guard let self else { return }
+
+                    switch result {
+                    case .success(let response):
+                        if let updatedSpreadsheet = response.updatedSpreadsheet {
+                            self.spreadsheet = updatedSpreadsheet
+                        }
+                    case .failure(_):
+                        print("Failure :(")
+                    }
+
+                    // Call all the completion handlers
+                    updateRequests.forEach { $0.1?(result) }
+
+                    // Reset the update requests
+                    updateRequests = []
                 }
-            case .failure(_):
-                print("Failure :(")
             }
-            completion?(result)
+        } else {
+            GSheetsSwiftAPI.ATSpreadsheets.update(
+                params: .init(spreadsheetId: spreadsheetId),
+                query: .init(),
+                data: .init(
+                    requests: requests,
+                    includeSpreadsheetInResponse: updateInternalRepresentation,
+                    responseRanges: [],
+                    responseIncludeGridData: false)
+            ) { result in
+                switch result {
+                case .success(let response):
+                    if let updatedSpreadsheet = response.updatedSpreadsheet {
+                        self.spreadsheet = updatedSpreadsheet
+                    }
+                case .failure(_):
+                    print("Failure :(")
+                }
+                completion?(result)
+            }
         }
     }
 }
