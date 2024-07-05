@@ -338,11 +338,17 @@ public class SheetsInterface: ObservableObject {
             DispatchQueue.main.asyncAfter(deadline: .now() + updateRequestPeriod) { [weak self] in
                 guard let self else { return }
 
+                let requests = updateRequests.flatMap { $0.0 }
+                let callbacks = updateRequests.compactMap { $0.1 }
+
+                // Reset the update requests
+                updateRequests = []
+
                 GSheetsSwiftAPI.ATSpreadsheets.update(
                     params: .init(spreadsheetId: spreadsheetId),
                     query: .init(),
                     data: .init(
-                        requests: updateRequests.flatMap { $0.0 },
+                        requests: requests,
                         includeSpreadsheetInResponse: updateInternalRepresentation,
                         responseRanges: [],
                         responseIncludeGridData: false)
@@ -359,10 +365,7 @@ public class SheetsInterface: ObservableObject {
                     }
 
                     // Call all the completion handlers
-                    updateRequests.forEach { $0.1?(result) }
-
-                    // Reset the update requests
-                    updateRequests = []
+                    callbacks.forEach { $0(result) }
                 }
             }
         } else {
