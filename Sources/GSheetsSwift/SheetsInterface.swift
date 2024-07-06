@@ -338,35 +338,7 @@ public class SheetsInterface: ObservableObject {
             DispatchQueue.main.asyncAfter(deadline: .now() + updateRequestPeriod) { [weak self] in
                 guard let self else { return }
 
-                let requests = updateRequests.flatMap { $0.0 }
-                let callbacks = updateRequests.compactMap { $0.1 }
-
-                // Reset the update requests
-                updateRequests = []
-
-                GSheetsSwiftAPI.ATSpreadsheets.update(
-                    params: .init(spreadsheetId: spreadsheetId),
-                    query: .init(),
-                    data: .init(
-                        requests: requests,
-                        includeSpreadsheetInResponse: updateInternalRepresentation,
-                        responseRanges: [],
-                        responseIncludeGridData: false)
-                ) { [weak self] result in
-                    guard let self else { return }
-
-                    switch result {
-                    case .success(let response):
-                        if let updatedSpreadsheet = response.updatedSpreadsheet {
-                            self.spreadsheet = updatedSpreadsheet
-                        }
-                    case .failure(_):
-                        print("Failure :(")
-                    }
-
-                    // Call all the completion handlers
-                    callbacks.forEach { $0(result) }
-                }
+                sendBatchedUpdates(updateInternalRepresentation: updateInternalRepresentation)
             }
         } else {
             GSheetsSwiftAPI.ATSpreadsheets.update(
@@ -388,6 +360,44 @@ public class SheetsInterface: ObservableObject {
                 }
                 completion?(result)
             }
+        }
+    }
+
+    /// Immediately sends all batched updates in ``updateRequests``. It clears them once its called, but only calls
+    /// the callbacks once the update API call succeeds.
+    public func sendBatchedUpdates(updateInternalRepresentation: Bool = false) {
+        guard let spreadsheetId = spreadsheet?.spreadsheetId else { return }
+
+        let requests = updateRequests.flatMap { $0.0 }
+        let callbacks = updateRequests.compactMap { $0.1 }
+
+        guard !requests.isEmpty else { return } // no updates to do
+
+        // Reset the update requests
+        updateRequests = []
+
+        GSheetsSwiftAPI.ATSpreadsheets.update(
+            params: .init(spreadsheetId: spreadsheetId),
+            query: .init(),
+            data: .init(
+                requests: requests,
+                includeSpreadsheetInResponse: updateInternalRepresentation,
+                responseRanges: [],
+                responseIncludeGridData: false)
+        ) { [weak self] result in
+            guard let self else { return }
+
+            switch result {
+            case .success(let response):
+                if let updatedSpreadsheet = response.updatedSpreadsheet {
+                    self.spreadsheet = updatedSpreadsheet
+                }
+            case .failure(_):
+                print("Failure :(")
+            }
+
+            // Call all the completion handlers
+            callbacks.forEach { $0(result) }
         }
     }
 }
